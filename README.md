@@ -27,7 +27,9 @@ You can change some parameters in config/config.py.
 2.'max_object' means the max number of target that allowed in one frame.
 
 ## Demo
-To be appear.
+We have upload two video demo on BaiduYun Disk, here is the link: 
+link: https://pan.baidu.com/s/1AS2RYdsnDM2IEUjJi85oqA 
+extract code: fse5 
 
 ## Attention
 Since this code is based on MOT framework, the counting result is greatly influenced by the performance of detector. You can try different detector in MOT17(DPM/SDP/Faster-RCNN) to test performance of this code.
