@@ -1,0 +1,3351 @@
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Using downloaded file: /home/zhouzhp/video-counting/SST-master/data/market1501/raw/Market-1501-v15.09.15.zip
+Extracting zip file
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Variable containing:
+( 0 , 0 ,.,.) = 
+   32.0000   26.0000   22.0000  ...    44.0000   42.0000   41.0000
+   35.0000   30.0000   27.0000  ...    36.0000   34.0000   33.0000
+   39.0000   35.0000   32.0000  ...    25.0000   22.0000   22.0000
+              ...                ⋱                ...             
+   46.0000   49.0000   51.0000  ...    20.0000   20.0000   21.0000
+   34.0000   37.0000   39.0000  ...    21.0000   21.0000   21.0000
+   20.0000   22.0000   24.0000  ...    16.0000   16.0000   15.0000
+
+( 0 , 1 ,.,.) = 
+   13.0000    9.0000    5.0000  ...    47.0000   45.0000   44.0000
+   17.0000   13.0000   10.0000  ...    39.0000   37.0000   36.0000
+   22.0000   19.0000   17.0000  ...    27.0000   25.0000   25.0000
+              ...                ⋱                ...             
+   32.0000   35.0000   37.0000  ...     7.0000    7.0000    8.0000
+   20.0000   23.0000   25.0000  ...     8.0000    8.0000    8.0000
+    6.0000    8.0000   10.0000  ...     3.0000    3.0000    2.0000
+
+( 0 , 2 ,.,.) = 
+   32.0000   28.0000   24.0000  ...    47.0000   45.0000   44.0000
+   36.0000   32.0000   29.0000  ...    39.0000   37.0000   36.0000
+   41.0000   38.0000   35.0000  ...    27.0000   25.0000   25.0000
+              ...                ⋱                ...             
+   28.0000   31.0000   33.0000  ...     1.0000    1.0000    2.0000
+   16.0000   19.0000   21.0000  ...     2.0000    2.0000    2.0000
+    2.0000    4.0000    6.0000  ...    -3.0000   -3.0000   -4.0000
+      ⋮  
+
+( 1 , 0 ,.,.) = 
+   15.0000   16.0000   16.0000  ...     3.0000    5.0000    4.0000
+    2.0000    7.0000   11.0000  ...    -9.0000  -11.0000  -15.0000
+    3.0000   10.0000   15.0000  ...    -6.0000   -5.0000   -7.0000
+              ...                ⋱                ...             
+    1.0000    2.0000    2.0000  ...    24.0000   25.0000   26.0000
+   -3.0000   -3.0000   -3.0000  ...    27.0000   28.0000   29.0000
+    3.0000    0.0000   -3.0000  ...    34.0000   35.0000   36.0000
+
+( 1 , 1 ,.,.) = 
+   16.0000   19.0000   20.0000  ...    29.0000   31.0000   30.0000
+    3.0000    9.0000   15.0000  ...    17.0000   15.0000   11.0000
+    4.0000   12.0000   20.0000  ...    19.0000   20.0000   18.0000
+              ...                ⋱                ...             
+  -13.0000  -12.0000  -12.0000  ...    10.0000   11.0000   12.0000
+  -17.0000  -17.0000  -17.0000  ...    13.0000   14.0000   15.0000
+  -11.0000  -14.0000  -17.0000  ...    20.0000   21.0000   22.0000
+
+( 1 , 2 ,.,.) = 
+    4.0000    6.0000    7.0000  ...    15.0000   17.0000   16.0000
+   -9.0000   -3.0000    2.0000  ...     3.0000    1.0000   -3.0000
+   -7.0000    1.0000    8.0000  ...     5.0000    6.0000    4.0000
+              ...                ⋱                ...             
+  -17.0000  -16.0000  -16.0000  ...     6.0000    7.0000    8.0000
+  -21.0000  -21.0000  -21.0000  ...     9.0000   10.0000   11.0000
+  -15.0000  -18.0000  -21.0000  ...    16.0000   17.0000   18.0000
+      ⋮  
+
+( 2 , 0 ,.,.) = 
+  -61.0000  -53.0000  -46.0000  ...   -48.0000  -43.0000  -47.0000
+  -50.0000  -47.0000  -41.0000  ...   -48.0000  -44.0000  -46.0000
+  -43.0000  -35.0000  -25.0000  ...   -42.0000  -37.0000  -37.0000
+              ...                ⋱                ...             
+   38.0000   38.0000   38.0000  ...    39.0000   39.0000   40.0000
+   38.0000   37.0000   37.0000  ...    38.0000   39.0000   40.0000
+   33.0000   33.0000   33.0000  ...    37.0000   37.0000   38.0000
+
+( 2 , 1 ,.,.) = 
+  -79.0000  -71.0000  -63.0000  ...   -68.0000  -63.0000  -67.0000
+  -68.0000  -65.0000  -59.0000  ...   -68.0000  -64.0000  -66.0000
+  -59.0000  -52.0000  -42.0000  ...   -62.0000  -57.0000  -57.0000
+              ...                ⋱                ...             
+   25.0000   25.0000   25.0000  ...    28.0000   28.0000   29.0000
+   25.0000   24.0000   24.0000  ...    27.0000   28.0000   29.0000
+   20.0000   20.0000   20.0000  ...    26.0000   26.0000   27.0000
+
+( 2 , 2 ,.,.) = 
+  -84.0000  -76.0000  -69.0000  ...   -70.0000  -64.0000  -68.0000
+  -73.0000  -70.0000  -65.0000  ...   -70.0000  -65.0000  -67.0000
+  -65.0000  -57.0000  -48.0000  ...   -64.0000  -58.0000  -58.0000
+              ...                ⋱                ...             
+   19.0000   19.0000   19.0000  ...    22.0000   22.0000   23.0000
+   19.0000   18.0000   18.0000  ...    21.0000   22.0000   23.0000
+   14.0000   14.0000   14.0000  ...    20.0000   20.0000   21.0000
+...     
+      ⋮  
+
+(177, 0 ,.,.) = 
+  -11.0000  -11.0000  -11.0000  ...   -33.0000  -31.0000  -27.0000
+   -3.0000   -3.0000   -3.0000  ...   -20.0000  -20.0000  -16.0000
+   -9.0000   -9.0000   -9.0000  ...    -1.0000   -1.0000    1.0000
+              ...                ⋱                ...             
+   16.0000   16.0000   16.0000  ...    25.0000   24.0000   23.0000
+   20.0000   20.0000   20.0000  ...    30.0000   29.0000   28.0000
+   22.0000   22.0000   22.0000  ...    32.0000   31.0000   30.0000
+
+(177, 1 ,.,.) = 
+  -18.0000  -18.0000  -18.0000  ...   -45.0000  -43.0000  -39.0000
+  -10.0000  -10.0000  -10.0000  ...   -32.0000  -32.0000  -28.0000
+  -16.0000  -16.0000  -16.0000  ...   -13.0000  -13.0000  -11.0000
+              ...                ⋱                ...             
+    2.0000    2.0000    2.0000  ...    13.0000   12.0000   11.0000
+    6.0000    6.0000    6.0000  ...    18.0000   17.0000   16.0000
+    8.0000    8.0000    8.0000  ...    20.0000   19.0000   18.0000
+
+(177, 2 ,.,.) = 
+  -19.0000  -19.0000  -19.0000  ...   -41.0000  -39.0000  -35.0000
+  -11.0000  -11.0000  -11.0000  ...   -28.0000  -28.0000  -24.0000
+  -18.0000  -18.0000  -18.0000  ...    -9.0000   -9.0000   -7.0000
+              ...                ⋱                ...             
+    6.0000    6.0000    6.0000  ...    17.0000   16.0000   15.0000
+   10.0000   10.0000   10.0000  ...    22.0000   21.0000   20.0000
+   12.0000   12.0000   12.0000  ...    24.0000   23.0000   22.0000
+      ⋮  
+
+(178, 0 ,.,.) = 
+  -21.0000  -27.0000  -26.0000  ...   -48.0000  -47.0000  -45.0000
+  -25.0000  -30.0000  -28.0000  ...   -47.0000  -48.0000  -49.0000
+  -28.0000  -30.0000  -28.0000  ...   -42.0000  -45.0000  -46.0000
+              ...                ⋱                ...             
+   11.0000   10.0000    8.0000  ...     1.0000    2.0000    2.0000
+   14.0000   12.0000    9.0000  ...     3.0000    3.0000    2.0000
+   10.0000    8.0000    5.0000  ...     6.0000    4.0000    3.0000
+
+(178, 1 ,.,.) = 
+  -27.0000  -33.0000  -32.0000  ...   -61.0000  -60.0000  -58.0000
+  -31.0000  -35.0000  -33.0000  ...   -60.0000  -61.0000  -62.0000
+  -33.0000  -35.0000  -33.0000  ...   -55.0000  -58.0000  -59.0000
+              ...                ⋱                ...             
+    0.0000   -1.0000   -3.0000  ...    -9.0000   -8.0000   -8.0000
+    3.0000    1.0000   -2.0000  ...    -7.0000   -7.0000   -8.0000
+   -1.0000   -3.0000   -6.0000  ...    -4.0000   -6.0000   -7.0000
+
+(178, 2 ,.,.) = 
+  -30.0000  -36.0000  -35.0000  ...   -67.0000  -66.0000  -64.0000
+  -36.0000  -40.0000  -39.0000  ...   -66.0000  -67.0000  -68.0000
+  -39.0000  -41.0000  -39.0000  ...   -61.0000  -64.0000  -65.0000
+              ...                ⋱                ...             
+   -5.0000   -6.0000   -8.0000  ...   -11.0000  -10.0000  -10.0000
+   -2.0000   -4.0000   -7.0000  ...    -9.0000   -9.0000  -10.0000
+   -6.0000   -8.0000  -11.0000  ...    -6.0000   -8.0000   -9.0000
+      ⋮  
+
+(179, 0 ,.,.) = 
+  -50.0000  -51.0000  -52.0000  ...   -51.0000  -61.0000  -65.0000
+  -54.0000  -52.0000  -50.0000  ...   -48.0000  -60.0000  -66.0000
+  -46.0000  -47.0000  -48.0000  ...   -43.0000  -57.0000  -64.0000
+              ...                ⋱                ...             
+   45.0000   44.0000   44.0000  ...    52.0000   52.0000   57.0000
+   46.0000   47.0000   47.0000  ...    59.0000   59.0000   62.0000
+   52.0000   53.0000   54.0000  ...    53.0000   54.0000   56.0000
+
+(179, 1 ,.,.) = 
+  -61.0000  -62.0000  -63.0000  ...   -59.0000  -68.0000  -72.0000
+  -65.0000  -63.0000  -61.0000  ...   -56.0000  -68.0000  -73.0000
+  -57.0000  -58.0000  -59.0000  ...   -51.0000  -65.0000  -72.0000
+              ...                ⋱                ...             
+   33.0000   32.0000   32.0000  ...    34.0000   34.0000   39.0000
+   34.0000   35.0000   35.0000  ...    40.0000   40.0000   43.0000
+   40.0000   41.0000   42.0000  ...    34.0000   35.0000   37.0000
+
+(179, 2 ,.,.) = 
+  -67.0000  -68.0000  -69.0000  ...   -63.0000  -74.0000  -79.0000
+  -71.0000  -68.0000  -67.0000  ...   -60.0000  -73.0000  -79.0000
+  -61.0000  -62.0000  -63.0000  ...   -54.0000  -69.0000  -76.0000
+              ...                ⋱                ...             
+   31.0000   30.0000   30.0000  ...    33.0000   33.0000   38.0000
+   32.0000   33.0000   33.0000  ...    39.0000   39.0000   42.0000
+   38.0000   39.0000   40.0000  ...    33.0000   34.0000   36.0000
+[torch.cuda.FloatTensor of size 180x3x160x80 (GPU 0)]
+
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 3, 160, 80])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 3, 160, 80])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 3, 160, 80])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+ModuleList(
+  (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (1): ReLU(inplace)
+  (2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (3): ReLU(inplace)
+  (4): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (5): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (6): ReLU(inplace)
+  (7): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (8): ReLU(inplace)
+  (9): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (10): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (11): ReLU(inplace)
+  (12): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (13): ReLU(inplace)
+  (14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (15): ReLU(inplace)
+  (16): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=True)
+  (17): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (18): ReLU(inplace)
+  (19): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (20): ReLU(inplace)
+  (21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (22): ReLU(inplace)
+  (23): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), dilation=(1, 1), ceil_mode=False)
+  (24): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (25): ReLU(inplace)
+  (26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (27): ReLU(inplace)
+  (28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (29): ReLU(inplace)
+  (30): MaxPool2d(kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), dilation=(1, 1), ceil_mode=False)
+  (31): Conv2d(512, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(6, 6), dilation=(6, 6))
+  (32): ReLU(inplace)
+  (33): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1))
+  (34): ReLU(inplace)
+)
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 1024, 1, 1])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 1024, 1, 1])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 1024])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 1024])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:1__loss:0.1993
+epoch:1__loss:0.1996
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1993
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1992
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:1__loss:0.1993
+epoch:1__loss:0.1995
+epoch:1__loss:0.1997
+epoch:1__loss:0.1995
+epoch:1__loss:0.1993
+epoch:1__loss:0.1995
+epoch:1__loss:0.1997
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:1__loss:0.1997
+epoch:1__loss:0.1995
+epoch:1__loss:0.1994
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:2__loss:0.1995
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1994
+epoch:2__loss:0.1994
+epoch:2__loss:0.1995
+epoch:2__loss:0.1996
+epoch:2__loss:0.1992
+epoch:2__loss:0.1996
+epoch:2__loss:0.1996
+epoch:2__loss:0.1994
+epoch:2__loss:0.1994
+epoch:2__loss:0.1995
+epoch:2__loss:0.1995
+epoch:2__loss:0.1995
+epoch:2__loss:0.1995
+epoch:2__loss:0.1993
+epoch:2__loss:0.1996
+epoch:2__loss:0.1997
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1994
+epoch:2__loss:0.1994
+epoch:2__loss:0.1995
+epoch:2__loss:0.1996
+epoch:2__loss:0.1992
+epoch:2__loss:0.1995
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__loss:0.1993
+epoch:0__loss:0.1996
+epoch:0__loss:0.1993
+epoch:0__loss:0.1994
+epoch:0__loss:0.1996
+epoch:0__loss:0.1994
+epoch:0__loss:0.1993
+epoch:0__loss:0.1994
+epoch:0__loss:0.1994
+epoch:0__loss:0.1996
+epoch:0__loss:0.1994
+epoch:0__loss:0.1996
+epoch:0__loss:0.1994
+epoch:0__loss:0.1996
+epoch:0__loss:0.1993
+epoch:0__loss:0.1994
+epoch:0__loss:0.1993
+epoch:0__loss:0.1993
+epoch:0__loss:0.1994
+epoch:0__loss:0.1993
+epoch:0__loss:0.1994
+epoch:0__loss:0.1994
+epoch:0__loss:0.1996
+epoch:0__loss:0.1992
+epoch:0__loss:0.1996
+epoch:0__loss:0.1996
+epoch:0__loss:0.1995
+epoch:0__loss:0.1993
+epoch:0__loss:0.1995
+epoch:0__loss:0.1997
+epoch:0__loss:0.1995
+epoch:0__loss:0.1993
+epoch:0__loss:0.1995
+epoch:0__loss:0.1997
+epoch:0__loss:0.1995
+epoch:0__loss:0.1995
+epoch:0__loss:0.1997
+epoch:0__loss:0.1995
+epoch:0__loss:0.1994
+epoch:0__loss:0.1995
+epoch:0__loss:0.1995
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1995
+epoch:1__loss:0.1996
+epoch:1__loss:0.1992
+epoch:1__loss:0.1995
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:1__loss:0.1995
+epoch:1__loss:0.1993
+epoch:1__loss:0.1996
+epoch:1__loss:0.1997
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1992
+epoch:1__loss:0.1995
+epoch:1__loss:0.1996
+epoch:1__loss:0.1994
+epoch:1__loss:0.1993
+epoch:1__loss:0.1997
+epoch:1__loss:0.1994
+epoch:1__loss:0.1993
+epoch:1__loss:0.1993
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1994
+epoch:1__loss:0.1996
+epoch:1__loss:0.1995
+epoch:1__loss:0.1996
+epoch:1__loss:0.1995
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1996
+epoch:2__loss:0.1992
+epoch:2__loss:0.1997
+epoch:2__loss:0.1994
+epoch:2__loss:0.1994
+epoch:2__loss:0.1995
+epoch:2__loss:0.1995
+epoch:2__loss:0.1995
+epoch:2__loss:0.1996
+epoch:2__loss:0.1998
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1993
+epoch:2__loss:0.1994
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1996
+epoch:2__loss:0.1993
+epoch:2__loss:0.1997
+epoch:2__loss:0.1993
+epoch:2__loss:0.1996
+epoch:2__loss:0.1993
+epoch:2__loss:0.1995
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1995
+epoch:2__loss:0.1994
+epoch:2__loss:0.1993
+epoch:2__loss:0.1995
+epoch:2__loss:0.1993
+epoch:2__loss:0.1995
+epoch:2__loss:0.1991
+epoch:2__loss:0.1994
+epoch:2__loss:0.1996
+epoch:2__loss:0.1993
+epoch:2__loss:0.1994
+epoch:2__loss:0.1993
+epoch:2__loss:0.1995
+epoch:2__loss:0.1992
+epoch:3__loss:0.1996
+epoch:3__loss:0.1997
+epoch:3__loss:0.1994
+epoch:3__loss:0.1994
+epoch:3__loss:0.1995
+epoch:3__loss:0.1996
+epoch:3__loss:0.1995
+epoch:3__loss:0.1995
+epoch:3__loss:0.1995
+epoch:3__loss:0.1993
+epoch:3__loss:0.1994
+epoch:3__loss:0.1994
+epoch:3__loss:0.1995
+epoch:3__loss:0.1993
+epoch:3__loss:0.1994
+epoch:3__loss:0.1996
+epoch:3__loss:0.1990
+epoch:3__loss:0.1994
+epoch:3__loss:0.1995
+epoch:3__loss:0.1994
+epoch:3__loss:0.1995
+epoch:3__loss:0.1995
+epoch:3__loss:0.1994
+epoch:3__loss:0.1992
+epoch:3__loss:0.1994
+epoch:3__loss:0.1995
+epoch:3__loss:0.1994
+epoch:3__loss:0.1994
+epoch:3__loss:0.1993
+epoch:3__loss:0.1997
+epoch:3__loss:0.1996
+epoch:3__loss:0.1995
+epoch:3__loss:0.1995
+epoch:3__loss:0.1996
+epoch:3__loss:0.1996
+epoch:3__loss:0.1995
+epoch:3__loss:0.1996
+epoch:3__loss:0.1994
+epoch:3__loss:0.1995
+epoch:3__loss:0.1996
+epoch:3__loss:0.1994
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1993
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1996
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1993
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1994
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1996
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1994
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1993
+torch.Size([180, 1024, 10, 5])
+epoch:0__loss:0.1994
+torch.Size([180, 1024, 10, 5])
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+epoch:0__loss:0.2000
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__loss:50.7793
+epoch:0__loss:42.1346
+epoch:0__loss:48.6643
+epoch:0__loss:60.6944
+epoch:0__loss:54.4551
+epoch:0__loss:63.6663
+epoch:0__loss:33.5045
+epoch:0__loss:31.9893
+epoch:0__loss:61.1647
+epoch:0__loss:34.8845
+epoch:0__loss:26.5428
+epoch:0__loss:47.3770
+epoch:0__loss:39.5971
+epoch:0__loss:47.2583
+epoch:0__loss:53.2456
+epoch:0__loss:48.8670
+epoch:0__loss:57.5667
+epoch:0__loss:57.9362
+epoch:0__loss:53.0833
+epoch:0__loss:62.5470
+epoch:0__loss:52.1010
+epoch:0__loss:46.3694
+epoch:0__loss:59.5122
+epoch:0__loss:34.6649
+epoch:0__loss:49.4000
+epoch:0__loss:32.2193
+epoch:0__loss:49.5449
+epoch:0__loss:36.7381
+epoch:0__loss:42.1284
+epoch:0__loss:58.1482
+epoch:0__loss:35.5976
+epoch:0__loss:46.6889
+epoch:0__loss:22.8196
+epoch:0__loss:37.3277
+epoch:0__loss:46.3269
+epoch:0__loss:53.8943
+epoch:0__loss:43.2293
+epoch:0__loss:51.1467
+epoch:0__loss:50.7660
+epoch:0__loss:38.9710
+epoch:0__loss:47.5060
+epoch:1__loss:36.9075
+epoch:1__loss:53.0210
+epoch:1__loss:68.5865
+epoch:1__loss:52.5379
+epoch:1__loss:63.6855
+epoch:1__loss:36.7757
+epoch:1__loss:55.9144
+epoch:1__loss:33.7541
+epoch:1__loss:44.8817
+epoch:1__loss:44.1531
+epoch:1__loss:35.3147
+epoch:1__loss:41.3051
+epoch:1__loss:47.5139
+epoch:1__loss:53.4296
+epoch:1__loss:49.7914
+epoch:1__loss:46.5155
+epoch:1__loss:48.4673
+epoch:1__loss:34.9465
+epoch:1__loss:42.9710
+epoch:1__loss:49.0831
+epoch:1__loss:51.4538
+epoch:1__loss:49.1695
+epoch:1__loss:51.8841
+epoch:1__loss:40.2816
+epoch:1__loss:50.3223
+epoch:1__loss:29.3723
+epoch:1__loss:50.3570
+epoch:1__loss:44.9556
+epoch:1__loss:34.8393
+epoch:1__loss:38.8140
+epoch:1__loss:41.5865
+epoch:1__loss:45.2827
+epoch:1__loss:58.4356
+epoch:1__loss:40.6064
+epoch:1__loss:49.3192
+epoch:1__loss:45.0096
+epoch:1__loss:65.2762
+epoch:1__loss:40.9601
+epoch:1__loss:55.3356
+epoch:1__loss:63.0529
+epoch:1__loss:45.8016
+epoch:2__loss:43.5180
+epoch:2__loss:40.1409
+epoch:2__loss:66.6230
+epoch:2__loss:36.3542
+epoch:2__loss:36.3165
+epoch:2__loss:47.4434
+epoch:2__loss:49.8794
+epoch:2__loss:43.0058
+epoch:2__loss:45.5635
+epoch:2__loss:63.8391
+epoch:2__loss:45.0071
+epoch:2__loss:49.6884
+epoch:2__loss:36.1343
+epoch:2__loss:54.0138
+epoch:2__loss:55.1986
+epoch:2__loss:46.3750
+epoch:2__loss:44.1454
+epoch:2__loss:37.8694
+epoch:2__loss:57.5260
+epoch:2__loss:48.8932
+epoch:2__loss:49.4916
+epoch:2__loss:38.6528
+epoch:2__loss:46.1621
+epoch:2__loss:31.6453
+epoch:2__loss:56.8407
+epoch:2__loss:35.9617
+epoch:2__loss:47.7725
+epoch:2__loss:55.7047
+epoch:2__loss:46.1656
+epoch:2__loss:52.3739
+epoch:2__loss:50.5110
+epoch:2__loss:40.5333
+epoch:2__loss:45.9772
+epoch:2__loss:29.0595
+epoch:2__loss:40.6099
+epoch:2__loss:39.9266
+epoch:2__loss:40.2582
+epoch:2__loss:40.0563
+epoch:2__loss:47.8856
+epoch:2__loss:68.0770
+epoch:2__loss:32.2829
+epoch:3__loss:51.0839
+epoch:3__loss:59.7364
+epoch:3__loss:35.9040
+epoch:3__loss:45.3131
+epoch:3__loss:56.8431
+epoch:3__loss:51.7397
+epoch:3__loss:58.0274
+epoch:3__loss:49.5169
+epoch:3__loss:51.0102
+epoch:3__loss:44.6473
+epoch:3__loss:54.2805
+epoch:3__loss:32.4943
+epoch:3__loss:39.8846
+epoch:3__loss:45.4296
+epoch:3__loss:34.0776
+epoch:3__loss:50.9271
+epoch:3__loss:55.5500
+epoch:3__loss:66.6140
+epoch:3__loss:55.8521
+epoch:3__loss:43.8934
+epoch:3__loss:34.8512
+epoch:3__loss:46.3811
+epoch:3__loss:55.0819
+epoch:3__loss:36.3861
+epoch:3__loss:35.2361
+epoch:3__loss:43.1736
+epoch:3__loss:51.2533
+epoch:3__loss:54.5860
+epoch:3__loss:48.1375
+epoch:3__loss:57.5245
+epoch:3__loss:35.8466
+epoch:3__loss:40.2019
+epoch:3__loss:38.5480
+epoch:3__loss:33.5540
+epoch:3__loss:44.7209
+epoch:3__loss:63.6832
+epoch:3__loss:57.7480
+epoch:3__loss:53.6282
+epoch:3__loss:37.6082
+epoch:3__loss:34.1197
+epoch:3__loss:41.4090
+epoch:4__loss:67.4339
+epoch:4__loss:46.9755
+epoch:4__loss:32.9689
+epoch:4__loss:62.5042
+epoch:4__loss:41.3724
+epoch:4__loss:41.0005
+epoch:4__loss:43.9629
+epoch:4__loss:53.9005
+epoch:4__loss:49.3022
+epoch:4__loss:63.6775
+epoch:4__loss:37.0367
+epoch:4__loss:45.0903
+epoch:4__loss:41.9686
+epoch:4__loss:54.9038
+epoch:4__loss:43.5759
+epoch:4__loss:44.2244
+epoch:4__loss:34.0879
+epoch:4__loss:42.8421
+epoch:4__loss:40.8488
+epoch:4__loss:51.4430
+epoch:4__loss:40.3036
+epoch:4__loss:33.3096
+epoch:4__loss:40.2466
+epoch:4__loss:47.1449
+epoch:4__loss:41.5145
+epoch:4__loss:48.4911
+epoch:4__loss:55.6888
+epoch:4__loss:30.0077
+epoch:4__loss:51.0345
+epoch:4__loss:44.7684
+epoch:4__loss:45.4106
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__loss:46.7885
+epoch:1__loss:48.0338
+epoch:2__loss:32.6509
+epoch:3__loss:39.5102
+epoch:4__loss:42.9651
+epoch:5__loss:48.3590
+epoch:6__loss:30.8821
+epoch:7__loss:35.9474
+epoch:8__loss:41.6844
+epoch:9__loss:30.4501
+epoch:10__loss:43.2723
+epoch:11__loss:43.4669
+epoch:12__loss:57.6271
+epoch:13__loss:34.5918
+epoch:14__loss:62.1950
+epoch:15__loss:40.9205
+epoch:16__loss:50.7849
+epoch:17__loss:37.1668
+epoch:18__loss:54.1689
+epoch:19__loss:54.3478
+epoch:20__loss:32.1278
+epoch:21__loss:50.4778
+epoch:22__loss:45.5492
+epoch:23__loss:44.2828
+epoch:24__loss:50.4655
+epoch:25__loss:58.1013
+epoch:26__loss:55.0825
+epoch:27__loss:27.7794
+epoch:28__loss:63.1049
+epoch:29__loss:46.0069
+epoch:30__loss:47.7356
+epoch:31__loss:36.5725
+epoch:32__loss:45.4000
+epoch:33__loss:39.8105
+epoch:34__loss:34.2865
+epoch:35__loss:55.1027
+epoch:36__loss:55.8601
+epoch:37__loss:56.4192
+epoch:38__loss:47.5341
+epoch:39__loss:52.8075
+epoch:40__loss:68.4940
+epoch:41__loss:36.0587
+epoch:42__loss:60.7366
+epoch:43__loss:38.2708
+epoch:44__loss:71.9001
+epoch:45__loss:44.0602
+epoch:46__loss:37.0205
+epoch:47__loss:51.6870
+epoch:48__loss:52.5532
+epoch:49__loss:57.0061
+epoch:50__loss:45.9933
+epoch:51__loss:36.2775
+epoch:52__loss:41.3300
+epoch:53__loss:57.5478
+epoch:54__loss:50.7489
+epoch:55__loss:53.7224
+epoch:56__loss:35.2813
+epoch:57__loss:31.3660
+epoch:58__loss:40.7556
+epoch:59__loss:71.7220
+epoch:60__loss:40.1308
+epoch:61__loss:37.2008
+epoch:62__loss:43.5298
+epoch:63__loss:49.1280
+epoch:64__loss:56.0041
+epoch:65__loss:55.5751
+epoch:66__loss:62.9213
+epoch:67__loss:46.8743
+epoch:68__loss:42.0209
+epoch:69__loss:64.1392
+epoch:70__loss:63.6712
+epoch:71__loss:44.5673
+epoch:72__loss:60.3451
+epoch:73__loss:35.4902
+epoch:74__loss:36.4791
+epoch:75__loss:43.8396
+epoch:76__loss:66.9175
+epoch:77__loss:42.5908
+epoch:78__loss:44.5361
+epoch:79__loss:36.9893
+epoch:80__loss:27.7017
+epoch:81__loss:49.9518
+epoch:82__loss:39.8813
+epoch:83__loss:37.2194
+epoch:84__loss:28.4472
+epoch:85__loss:39.0860
+epoch:86__loss:39.3807
+epoch:87__loss:59.0372
+epoch:88__loss:37.7182
+epoch:89__loss:39.5964
+epoch:90__loss:42.5541
+epoch:91__loss:60.5798
+epoch:92__loss:42.4126
+epoch:93__loss:59.2632
+epoch:94__loss:38.7781
+epoch:95__loss:47.8882
+epoch:96__loss:37.7449
+epoch:97__loss:58.3376
+epoch:98__loss:36.3101
+epoch:99__loss:50.5785
+epoch:100__loss:49.5566
+epoch:101__loss:35.3509
+epoch:102__loss:52.8607
+epoch:103__loss:44.2321
+epoch:104__loss:41.0429
+epoch:105__loss:42.5430
+epoch:106__loss:31.7976
+epoch:107__loss:36.3794
+epoch:108__loss:57.9841
+epoch:109__loss:49.6497
+epoch:110__loss:34.9712
+epoch:111__loss:34.0717
+epoch:112__loss:38.2527
+epoch:113__loss:52.8575
+epoch:114__loss:53.7992
+epoch:115__loss:40.5404
+epoch:116__loss:53.6424
+epoch:117__loss:48.2687
+epoch:118__loss:39.9698
+epoch:119__loss:60.6543
+epoch:120__loss:43.4563
+epoch:121__loss:48.3397
+epoch:122__loss:55.7200
+epoch:123__loss:48.0143
+epoch:124__loss:28.3762
+epoch:125__loss:63.4961
+epoch:126__loss:50.1915
+epoch:127__loss:55.5637
+epoch:128__loss:40.9818
+epoch:129__loss:52.6519
+epoch:130__loss:59.3906
+epoch:131__loss:48.6835
+epoch:132__loss:45.2427
+epoch:133__loss:41.6790
+epoch:134__loss:73.0801
+epoch:135__loss:41.9821
+epoch:136__loss:46.7431
+epoch:137__loss:44.5970
+epoch:138__loss:48.1886
+epoch:139__loss:59.9711
+epoch:140__loss:57.0204
+epoch:141__loss:43.7324
+epoch:142__loss:52.9410
+epoch:143__loss:35.6699
+epoch:144__loss:32.6409
+epoch:145__loss:51.8106
+epoch:146__loss:47.3793
+epoch:147__loss:36.8412
+epoch:148__loss:43.6244
+epoch:149__loss:46.1863
+epoch:150__loss:54.5314
+epoch:151__loss:66.3318
+epoch:152__loss:54.9934
+epoch:153__loss:44.3109
+epoch:154__loss:59.3060
+epoch:155__loss:45.7846
+epoch:156__loss:36.1232
+epoch:157__loss:53.5841
+epoch:158__loss:43.5876
+epoch:159__loss:39.5028
+epoch:160__loss:40.6951
+epoch:161__loss:40.1537
+epoch:162__loss:56.6754
+epoch:163__loss:45.6666
+epoch:164__loss:53.3982
+epoch:165__loss:68.0579
+epoch:166__loss:61.4054
+epoch:167__loss:39.6228
+epoch:168__loss:35.4228
+epoch:169__loss:71.4176
+epoch:170__loss:37.5776
+epoch:171__loss:59.1678
+epoch:172__loss:50.6579
+epoch:173__loss:50.1182
+epoch:174__loss:52.6031
+epoch:175__loss:50.0384
+epoch:176__loss:72.7212
+epoch:177__loss:44.5127
+epoch:178__loss:46.8043
+epoch:179__loss:49.1863
+epoch:180__loss:43.0728
+epoch:181__loss:54.0528
+epoch:182__loss:52.7755
+epoch:183__loss:52.8843
+epoch:184__loss:47.7208
+epoch:185__loss:29.4427
+epoch:186__loss:40.0366
+epoch:187__loss:43.6542
+epoch:188__loss:33.8128
+epoch:189__loss:37.4801
+epoch:190__loss:49.5426
+epoch:191__loss:53.8855
+epoch:192__loss:54.4337
+epoch:193__loss:37.6857
+epoch:194__loss:58.9594
+epoch:195__loss:60.6929
+epoch:196__loss:34.3089
+epoch:197__loss:48.4846
+epoch:198__loss:49.8142
+epoch:199__loss:35.4325
+epoch:200__loss:47.3774
+epoch:201__loss:54.2636
+epoch:202__loss:73.8597
+epoch:203__loss:44.7403
+epoch:204__loss:63.7667
+epoch:205__loss:47.5976
+epoch:206__loss:39.9975
+epoch:207__loss:61.4329
+epoch:208__loss:65.8834
+epoch:209__loss:32.1886
+epoch:210__loss:40.1365
+epoch:211__loss:43.1973
+epoch:212__loss:53.7482
+epoch:213__loss:76.9174
+epoch:214__loss:48.0482
+epoch:215__loss:39.4719
+epoch:216__loss:39.2003
+epoch:217__loss:48.8436
+epoch:218__loss:55.2234
+epoch:219__loss:36.4976
+epoch:220__loss:39.4100
+epoch:221__loss:46.3603
+epoch:222__loss:38.0128
+epoch:223__loss:55.3398
+epoch:224__loss:54.1182
+epoch:225__loss:62.7578
+epoch:226__loss:44.1670
+epoch:227__loss:38.2846
+epoch:228__loss:47.4619
+epoch:229__loss:66.7577
+epoch:230__loss:55.7861
+epoch:231__loss:42.9092
+epoch:232__loss:38.3227
+epoch:233__loss:23.4867
+epoch:234__loss:35.6970
+epoch:235__loss:56.6184
+epoch:236__loss:30.8501
+epoch:237__loss:26.5846
+epoch:238__loss:45.8185
+epoch:239__loss:32.9995
+epoch:240__loss:66.5758
+epoch:241__loss:45.6334
+epoch:242__loss:39.0179
+epoch:243__loss:51.3178
+epoch:244__loss:37.5456
+epoch:245__loss:57.1245
+epoch:246__loss:46.3194
+epoch:247__loss:34.9911
+epoch:248__loss:21.1359
+epoch:249__loss:41.3582
+epoch:250__loss:58.2869
+epoch:251__loss:40.7393
+epoch:252__loss:40.8225
+epoch:253__loss:50.7408
+epoch:254__loss:42.4586
+epoch:255__loss:35.3760
+epoch:256__loss:47.1869
+epoch:257__loss:60.5423
+epoch:258__loss:42.5288
+epoch:259__loss:52.6618
+epoch:260__loss:46.4128
+epoch:261__loss:27.1876
+epoch:262__loss:44.6422
+epoch:263__loss:54.4472
+epoch:264__loss:42.6338
+epoch:265__loss:56.8441
+epoch:266__loss:68.0389
+epoch:267__loss:54.6059
+epoch:268__loss:51.9029
+epoch:269__loss:63.7839
+epoch:270__loss:44.9046
+epoch:271__loss:38.2344
+epoch:272__loss:36.9019
+epoch:273__loss:56.0620
+epoch:274__loss:56.1229
+epoch:275__loss:54.4631
+epoch:276__loss:34.6989
+epoch:277__loss:45.8700
+epoch:278__loss:36.8974
+epoch:279__loss:46.9636
+epoch:280__loss:44.4300
+epoch:281__loss:49.6485
+epoch:282__loss:51.8645
+epoch:283__loss:64.9130
+epoch:284__loss:33.2388
+epoch:285__loss:38.5525
+epoch:286__loss:42.1847
+epoch:287__loss:35.4327
+epoch:288__loss:45.9846
+epoch:289__loss:33.8895
+epoch:290__loss:46.5849
+epoch:291__loss:48.8215
+epoch:292__loss:39.5278
+epoch:293__loss:44.0043
+epoch:294__loss:54.0719
+epoch:295__loss:45.6604
+epoch:296__loss:65.8706
+epoch:297__loss:51.0981
+epoch:298__loss:56.6298
+epoch:299__loss:37.8833
+epoch:300__loss:46.7157
+epoch:301__loss:78.7906
+epoch:302__loss:44.5416
+epoch:303__loss:56.4224
+epoch:304__loss:56.0515
+epoch:305__loss:50.8709
+epoch:306__loss:50.6225
+epoch:307__loss:53.6768
+epoch:308__loss:30.9036
+epoch:309__loss:41.7915
+epoch:310__loss:44.2542
+epoch:311__loss:41.2499
+epoch:312__loss:48.1655
+epoch:313__loss:38.9986
+epoch:314__loss:55.4952
+epoch:315__loss:38.6287
+epoch:316__loss:68.3605
+epoch:317__loss:46.3555
+epoch:318__loss:62.4983
+epoch:319__loss:53.7842
+epoch:320__loss:39.8661
+epoch:321__loss:63.1717
+epoch:322__loss:31.6834
+epoch:323__loss:53.1014
+epoch:324__loss:56.7905
+epoch:325__loss:48.5737
+epoch:326__loss:39.2199
+epoch:327__loss:43.7038
+epoch:328__loss:34.9144
+epoch:329__loss:42.7391
+epoch:330__loss:54.7631
+epoch:331__loss:46.0996
+epoch:332__loss:45.3943
+epoch:333__loss:43.4152
+epoch:334__loss:49.2797
+epoch:335__loss:38.0053
+epoch:336__loss:36.6689
+epoch:337__loss:36.9560
+epoch:338__loss:40.6310
+epoch:339__loss:42.3661
+epoch:340__loss:55.8749
+epoch:341__loss:51.3670
+epoch:342__loss:42.6625
+epoch:343__loss:57.3617
+epoch:344__loss:54.5437
+epoch:345__loss:28.2536
+epoch:346__loss:51.4509
+epoch:347__loss:28.2285
+epoch:348__loss:59.6348
+epoch:349__loss:44.7667
+epoch:350__loss:50.5885
+epoch:351__loss:45.9076
+epoch:352__loss:46.2736
+epoch:353__loss:31.6192
+epoch:354__loss:51.8415
+epoch:355__loss:49.0790
+epoch:356__loss:49.9171
+epoch:357__loss:33.9484
+epoch:358__loss:45.1663
+epoch:359__loss:29.0709
+epoch:360__loss:50.7376
+epoch:361__loss:49.4086
+epoch:362__loss:53.7216
+epoch:363__loss:53.6944
+epoch:364__loss:42.4844
+epoch:365__loss:64.8095
+epoch:366__loss:33.7110
+epoch:367__loss:43.3328
+epoch:368__loss:47.0697
+epoch:369__loss:48.2167
+epoch:370__loss:40.5081
+epoch:371__loss:47.3158
+epoch:372__loss:53.4327
+epoch:373__loss:48.4647
+epoch:374__loss:48.1253
+epoch:375__loss:43.3899
+epoch:376__loss:45.7407
+epoch:377__loss:50.9541
+epoch:378__loss:41.0992
+epoch:379__loss:61.7830
+epoch:380__loss:35.0243
+epoch:381__loss:41.9983
+epoch:382__loss:38.9554
+epoch:383__loss:48.6472
+epoch:384__loss:40.5828
+epoch:385__loss:34.1228
+epoch:386__loss:61.5670
+epoch:387__loss:52.7107
+epoch:388__loss:39.1677
+epoch:389__loss:56.5291
+epoch:390__loss:42.0805
+epoch:391__loss:39.3711
+epoch:392__loss:52.8151
+epoch:393__loss:52.2906
+epoch:394__loss:46.3659
+epoch:395__loss:47.8785
+epoch:396__loss:69.1061
+epoch:397__loss:37.8846
+epoch:398__loss:38.7039
+epoch:399__loss:47.4035
+epoch:400__loss:36.7350
+epoch:401__loss:43.9118
+epoch:402__loss:53.6914
+epoch:403__loss:44.2421
+epoch:404__loss:41.1806
+epoch:405__loss:36.2600
+epoch:406__loss:36.5956
+epoch:407__loss:58.1303
+epoch:408__loss:33.0394
+epoch:409__loss:52.2124
+epoch:410__loss:37.6831
+epoch:411__loss:41.5395
+epoch:412__loss:54.3887
+epoch:413__loss:28.4241
+epoch:414__loss:64.9042
+epoch:415__loss:61.5633
+epoch:416__loss:46.8155
+epoch:417__loss:52.8534
+epoch:418__loss:32.8110
+epoch:419__loss:56.3887
+epoch:420__loss:40.9772
+epoch:421__loss:44.7872
+epoch:422__loss:60.7046
+epoch:423__loss:48.9655
+epoch:424__loss:50.9033
+epoch:425__loss:49.9479
+epoch:426__loss:43.8544
+epoch:427__loss:69.9983
+epoch:428__loss:40.9600
+epoch:429__loss:45.0647
+epoch:430__loss:47.5956
+epoch:431__loss:44.1733
+epoch:432__loss:49.7954
+epoch:433__loss:41.6925
+epoch:434__loss:68.5142
+epoch:435__loss:51.4268
+epoch:436__loss:62.2742
+epoch:437__loss:46.0462
+epoch:438__loss:57.0905
+epoch:439__loss:56.6668
+epoch:440__loss:32.9604
+epoch:441__loss:38.4093
+epoch:442__loss:53.3769
+epoch:443__loss:34.3767
+epoch:444__loss:58.5037
+epoch:445__loss:44.6101
+epoch:446__loss:59.3984
+epoch:447__loss:49.8706
+epoch:448__loss:34.5544
+epoch:449__loss:36.5591
+epoch:450__loss:32.3343
+epoch:451__loss:38.6320
+epoch:452__loss:44.3069
+epoch:453__loss:51.4682
+epoch:454__loss:39.8432
+epoch:455__loss:44.8746
+epoch:456__loss:54.1858
+epoch:457__loss:36.9277
+epoch:458__loss:58.1160
+epoch:459__loss:32.3783
+epoch:460__loss:57.1013
+epoch:461__loss:39.6121
+epoch:462__loss:45.6768
+epoch:463__loss:25.9792
+epoch:464__loss:35.1179
+epoch:465__loss:59.2604
+epoch:466__loss:43.0277
+epoch:467__loss:44.9352
+epoch:468__loss:64.1140
+epoch:469__loss:33.6971
+epoch:470__loss:63.9593
+epoch:471__loss:43.1839
+epoch:472__loss:40.0888
+epoch:473__loss:70.3769
+epoch:474__loss:28.8590
+epoch:475__loss:55.6655
+epoch:476__loss:46.6685
+epoch:477__loss:40.8055
+epoch:478__loss:43.0612
+epoch:479__loss:52.9489
+epoch:480__loss:49.9626
+epoch:481__loss:48.4914
+epoch:482__loss:33.2979
+epoch:483__loss:51.9046
+epoch:484__loss:52.7166
+epoch:485__loss:36.1351
+epoch:486__loss:60.3842
+epoch:487__loss:59.0323
+epoch:488__loss:43.7992
+epoch:489__loss:48.1861
+epoch:490__loss:36.1232
+epoch:491__loss:47.2707
+epoch:492__loss:59.5995
+epoch:493__loss:48.2463
+epoch:494__loss:40.2954
+epoch:495__loss:51.6636
+epoch:496__loss:66.4174
+epoch:497__loss:48.8625
+epoch:498__loss:53.1273
+epoch:499__loss:41.8984
+epoch:500__loss:62.7935
+epoch:501__loss:58.0443
+epoch:502__loss:49.3819
+epoch:503__loss:45.8863
+epoch:504__loss:41.9058
+epoch:505__loss:38.4190
+epoch:506__loss:39.5134
+epoch:507__loss:43.2680
+epoch:508__loss:58.5325
+epoch:509__loss:51.9190
+epoch:510__loss:47.7541
+epoch:511__loss:45.2797
+epoch:512__loss:42.4070
+epoch:513__loss:36.7406
+epoch:514__loss:47.6225
+epoch:515__loss:45.5690
+epoch:516__loss:38.5847
+epoch:517__loss:58.6741
+epoch:518__loss:48.4875
+epoch:519__loss:41.4131
+epoch:520__loss:56.1951
+epoch:521__loss:46.6350
+epoch:522__loss:43.6881
+epoch:523__loss:60.2527
+epoch:524__loss:49.7004
+epoch:525__loss:62.2176
+epoch:526__loss:38.0399
+epoch:527__loss:40.3499
+epoch:528__loss:39.7024
+epoch:529__loss:36.8086
+epoch:530__loss:46.8934
+epoch:531__loss:50.8485
+epoch:532__loss:35.4107
+epoch:533__loss:45.4403
+epoch:534__loss:55.3943
+epoch:535__loss:33.4767
+epoch:536__loss:44.6925
+epoch:537__loss:58.6124
+epoch:538__loss:56.4208
+epoch:539__loss:51.1546
+epoch:540__loss:40.2760
+epoch:541__loss:60.8069
+epoch:542__loss:46.7258
+epoch:543__loss:48.1698
+epoch:544__loss:52.2660
+epoch:545__loss:40.3352
+epoch:546__loss:36.9535
+epoch:547__loss:50.1543
+epoch:548__loss:36.6073
+epoch:549__loss:40.3148
+epoch:550__loss:39.9190
+epoch:551__loss:48.3498
+epoch:552__loss:47.3722
+epoch:553__loss:48.0397
+epoch:554__loss:42.6356
+epoch:555__loss:38.4418
+epoch:556__loss:51.6435
+epoch:557__loss:39.5178
+epoch:558__loss:48.7665
+epoch:559__loss:35.5871
+epoch:560__loss:48.6501
+epoch:561__loss:38.0792
+epoch:562__loss:54.0646
+epoch:563__loss:48.5109
+epoch:564__loss:41.0572
+epoch:565__loss:53.4393
+epoch:566__loss:37.6666
+epoch:567__loss:42.8770
+epoch:568__loss:38.6652
+epoch:569__loss:51.3150
+epoch:570__loss:49.6735
+epoch:571__loss:55.8652
+epoch:572__loss:59.1725
+epoch:573__loss:36.6649
+epoch:574__loss:40.9825
+epoch:575__loss:57.8207
+epoch:576__loss:46.3006
+epoch:577__loss:43.8326
+epoch:578__loss:36.2355
+epoch:579__loss:33.7835
+epoch:580__loss:46.5075
+epoch:581__loss:40.6945
+epoch:582__loss:36.2545
+epoch:583__loss:31.2363
+epoch:584__loss:45.2962
+epoch:585__loss:45.3504
+epoch:586__loss:52.4896
+epoch:587__loss:58.8627
+epoch:588__loss:50.0711
+epoch:589__loss:58.9600
+epoch:590__loss:29.7649
+epoch:591__loss:43.4453
+epoch:592__loss:56.3013
+epoch:593__loss:28.4185
+epoch:594__loss:38.5250
+epoch:595__loss:49.6300
+epoch:596__loss:46.4088
+epoch:597__loss:36.8795
+epoch:598__loss:39.8614
+epoch:599__loss:40.4053
+epoch:600__loss:45.5612
+epoch:601__loss:44.3289
+epoch:602__loss:51.7818
+epoch:603__loss:55.6238
+epoch:604__loss:50.7056
+epoch:605__loss:45.3318
+epoch:606__loss:29.9239
+epoch:607__loss:54.9071
+epoch:608__loss:39.2628
+epoch:609__loss:42.6808
+epoch:610__loss:50.4559
+epoch:611__loss:51.2270
+epoch:612__loss:48.4517
+epoch:613__loss:57.9652
+epoch:614__loss:58.2283
+epoch:615__loss:57.2296
+epoch:616__loss:39.5454
+epoch:617__loss:47.2987
+epoch:618__loss:58.6118
+epoch:619__loss:55.1724
+epoch:620__loss:50.9366
+epoch:621__loss:45.2819
+epoch:622__loss:45.5003
+epoch:623__loss:43.9607
+epoch:624__loss:39.9550
+epoch:625__loss:50.6248
+epoch:626__loss:47.4943
+epoch:627__loss:32.7110
+epoch:628__loss:43.5585
+epoch:629__loss:42.7339
+epoch:630__loss:72.0442
+epoch:631__loss:41.0510
+epoch:632__loss:49.4461
+epoch:633__loss:31.0850
+epoch:634__loss:44.8741
+epoch:635__loss:44.3079
+epoch:636__loss:49.2599
+epoch:637__loss:48.5623
+epoch:638__loss:49.7252
+epoch:639__loss:38.6868
+epoch:640__loss:52.8739
+epoch:641__loss:44.0855
+epoch:642__loss:41.2966
+epoch:643__loss:57.1011
+epoch:644__loss:53.2781
+epoch:645__loss:39.9021
+epoch:646__loss:49.2440
+epoch:647__loss:35.1276
+epoch:648__loss:32.3218
+epoch:649__loss:46.4863
+epoch:650__loss:48.3519
+epoch:651__loss:41.6499
+epoch:652__loss:34.9577
+epoch:653__loss:39.1729
+epoch:654__loss:29.1794
+epoch:655__loss:39.8294
+epoch:656__loss:52.5111
+epoch:657__loss:35.9817
+epoch:658__loss:45.2148
+epoch:659__loss:46.8111
+epoch:660__loss:56.9950
+epoch:661__loss:42.9165
+epoch:662__loss:37.5828
+epoch:663__loss:49.2566
+epoch:664__loss:60.7359
+epoch:665__loss:62.4624
+epoch:666__loss:70.0607
+epoch:667__loss:38.7269
+epoch:668__loss:48.2504
+epoch:669__loss:28.6969
+epoch:670__loss:39.1943
+epoch:671__loss:60.8139
+epoch:672__loss:42.3369
+epoch:673__loss:38.1112
+epoch:674__loss:45.2587
+epoch:675__loss:47.2975
+epoch:676__loss:37.6088
+epoch:677__loss:40.9507
+epoch:678__loss:52.9312
+epoch:679__loss:61.7592
+epoch:680__loss:68.4048
+epoch:681__loss:41.3412
+epoch:682__loss:45.5780
+epoch:683__loss:29.5833
+epoch:684__loss:42.1828
+epoch:685__loss:42.4670
+epoch:686__loss:65.2370
+epoch:687__loss:40.9769
+epoch:688__loss:44.8404
+epoch:689__loss:57.6232
+epoch:690__loss:50.8613
+epoch:691__loss:59.3653
+epoch:692__loss:59.6400
+epoch:693__loss:53.2098
+epoch:694__loss:39.7261
+epoch:695__loss:50.9017
+epoch:696__loss:43.1951
+epoch:697__loss:41.4071
+epoch:698__loss:41.0531
+epoch:699__loss:33.0093
+epoch:700__loss:46.5743
+epoch:701__loss:48.5315
+epoch:702__loss:24.7112
+epoch:703__loss:45.8641
+epoch:704__loss:59.3362
+epoch:705__loss:50.4702
+epoch:706__loss:50.5390
+epoch:707__loss:39.1994
+epoch:708__loss:44.3436
+epoch:709__loss:40.7089
+epoch:710__loss:45.1096
+epoch:711__loss:43.8382
+epoch:712__loss:44.1347
+epoch:713__loss:45.2115
+epoch:714__loss:32.8102
+epoch:715__loss:29.6452
+epoch:716__loss:55.3516
+epoch:717__loss:70.7813
+epoch:718__loss:38.4587
+epoch:719__loss:28.4220
+epoch:720__loss:35.4142
+epoch:721__loss:49.9717
+epoch:722__loss:32.5987
+epoch:723__loss:40.0029
+epoch:724__loss:36.9319
+epoch:725__loss:56.4255
+epoch:726__loss:51.4717
+epoch:727__loss:38.8609
+epoch:728__loss:50.2942
+epoch:729__loss:39.2674
+epoch:730__loss:42.0240
+epoch:731__loss:39.9664
+epoch:732__loss:52.9853
+epoch:733__loss:32.7890
+epoch:734__loss:29.2200
+epoch:735__loss:37.4738
+epoch:736__loss:37.1474
+epoch:737__loss:32.7561
+epoch:738__loss:57.8176
+epoch:739__loss:43.8729
+epoch:740__loss:43.4640
+epoch:741__loss:39.1754
+epoch:742__loss:55.0573
+epoch:743__loss:49.0471
+epoch:744__loss:46.4163
+epoch:745__loss:53.2726
+epoch:746__loss:44.1544
+epoch:747__loss:45.2463
+epoch:748__loss:49.9315
+epoch:749__loss:63.8042
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__loss:46.7823
+epoch:1__loss:48.9027
+epoch:2__loss:33.4455
+epoch:3__loss:41.7615
+epoch:4__loss:45.6320
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+tensor(82.0294, device='cuda:0')
+tensor(150.6954, device='cuda:0')
+tensor(67.6198, device='cuda:0')
+tensor(189.7949, device='cuda:0')
+tensor(69.2627, device='cuda:0')
+tensor(70.4011, device='cuda:0')
+tensor(120.9229, device='cuda:0')
+tensor(139.5111, device='cuda:0')
+tensor(132.5326, device='cuda:0')
+tensor(142.2690, device='cuda:0')
+tensor(96.2383, device='cuda:0')
+tensor(150.8122, device='cuda:0')
+tensor(93.4340, device='cuda:0')
+tensor(127.4003, device='cuda:0')
+tensor(152.4613, device='cuda:0')
+tensor(206.1743, device='cuda:0')
+tensor(80.1629, device='cuda:0')
+tensor(86.1538, device='cuda:0')
+tensor(58.8347, device='cuda:0')
+tensor(148.8199, device='cuda:0')
+tensor(88.3520, device='cuda:0')
+tensor(105.6720, device='cuda:0')
+tensor(89.2710, device='cuda:0')
+tensor(161.7117, device='cuda:0')
+tensor(192.1336, device='cuda:0')
+tensor(123.3120, device='cuda:0')
+tensor(158.1343, device='cuda:0')
+tensor(121.7525, device='cuda:0')
+tensor(159.3617, device='cuda:0')
+tensor(106.9094, device='cuda:0')
+tensor(75.1130, device='cuda:0')
+tensor(111.2720, device='cuda:0')
+tensor(89.5404, device='cuda:0')
+tensor(151.2018, device='cuda:0')
+tensor(117.6959, device='cuda:0')
+tensor(116.7824, device='cuda:0')
+tensor(142.2437, device='cuda:0')
+tensor(164.2243, device='cuda:0')
+tensor(104.2747, device='cuda:0')
+tensor(115.3056, device='cuda:0')
+tensor(133.6323, device='cuda:0')
+tensor(100.9750, device='cuda:0')
+tensor(147.4964, device='cuda:0')
+tensor(125.8531, device='cuda:0')
+tensor(147.4638, device='cuda:0')
+tensor(98.3626, device='cuda:0')
+tensor(118.8997, device='cuda:0')
+tensor(125.9370, device='cuda:0')
+tensor(110.1801, device='cuda:0')
+tensor(58.7477, device='cuda:0')
+tensor(141.9918, device='cuda:0')
+tensor(80.9388, device='cuda:0')
+tensor(150.3824, device='cuda:0')
+tensor(100.7255, device='cuda:0')
+tensor(75.9793, device='cuda:0')
+tensor(126.8232, device='cuda:0')
+tensor(113.7971, device='cuda:0')
+tensor(115.7826, device='cuda:0')
+tensor(121.3912, device='cuda:0')
+tensor(111.6045, device='cuda:0')
+tensor(72.4821, device='cuda:0')
+tensor(93.9728, device='cuda:0')
+tensor(76.3282, device='cuda:0')
+tensor(99.9416, device='cuda:0')
+tensor(117.8527, device='cuda:0')
+tensor(145.0283, device='cuda:0')
+tensor(74.9320, device='cuda:0')
+tensor(155.7607, device='cuda:0')
+tensor(128.6416, device='cuda:0')
+tensor(179.6661, device='cuda:0')
+tensor(88.9573, device='cuda:0')
+tensor(129.5510, device='cuda:0')
+tensor(124.9642, device='cuda:0')
+tensor(167.8018, device='cuda:0')
+tensor(121.9644, device='cuda:0')
+tensor(71.6937, device='cuda:0')
+tensor(175.0184, device='cuda:0')
+tensor(129.1425, device='cuda:0')
+tensor(72.6520, device='cuda:0')
+tensor(90.7281, device='cuda:0')
+tensor(117.2116, device='cuda:0')
+tensor(85.6581, device='cuda:0')
+tensor(97.7945, device='cuda:0')
+tensor(160.5564, device='cuda:0')
+tensor(191.9744, device='cuda:0')
+tensor(107.7028, device='cuda:0')
+tensor(126.7242, device='cuda:0')
+tensor(61.1360, device='cuda:0')
+tensor(133.1163, device='cuda:0')
+tensor(64.8496, device='cuda:0')
+tensor(113.0847, device='cuda:0')
+tensor(141.2381, device='cuda:0')
+tensor(92.2374, device='cuda:0')
+tensor(91.6783, device='cuda:0')
+tensor(155.3700, device='cuda:0')
+tensor(143.4608, device='cuda:0')
+tensor(82.1504, device='cuda:0')
+tensor(81.8050, device='cuda:0')
+tensor(82.1733, device='cuda:0')
+tensor(172.3877, device='cuda:0')
+tensor(112.1819, device='cuda:0')
+tensor(137.0880, device='cuda:0')
+tensor(97.0900, device='cuda:0')
+tensor(138.0155, device='cuda:0')
+tensor(95.3299, device='cuda:0')
+tensor(99.7963, device='cuda:0')
+tensor(110.6128, device='cuda:0')
+tensor(81.2336, device='cuda:0')
+tensor(82.0294, device='cuda:0')
+tensor(150.6954, device='cuda:0')
+tensor(67.6198, device='cuda:0')
+tensor(189.7949, device='cuda:0')
+tensor(69.2627, device='cuda:0')
+tensor(70.4011, device='cuda:0')
+tensor(120.9229, device='cuda:0')
+tensor(139.5111, device='cuda:0')
+tensor(132.5326, device='cuda:0')
+tensor(142.2690, device='cuda:0')
+tensor(96.2383, device='cuda:0')
+tensor(150.8122, device='cuda:0')
+tensor(93.4340, device='cuda:0')
+tensor(127.4003, device='cuda:0')
+tensor(152.4613, device='cuda:0')
+tensor(206.1743, device='cuda:0')
+tensor(80.1629, device='cuda:0')
+tensor(86.1538, device='cuda:0')
+tensor(58.8347, device='cuda:0')
+tensor(148.8199, device='cuda:0')
+tensor(88.3520, device='cuda:0')
+tensor(105.6720, device='cuda:0')
+tensor(89.2710, device='cuda:0')
+tensor(161.7117, device='cuda:0')
+tensor(192.1336, device='cuda:0')
+tensor(123.3120, device='cuda:0')
+tensor(158.1343, device='cuda:0')
+tensor(121.7525, device='cuda:0')
+tensor(159.3617, device='cuda:0')
+tensor(106.9094, device='cuda:0')
+tensor(75.1130, device='cuda:0')
+tensor(111.2720, device='cuda:0')
+tensor(89.5404, device='cuda:0')
+tensor(151.2018, device='cuda:0')
+tensor(117.6959, device='cuda:0')
+tensor(116.7824, device='cuda:0')
+tensor(142.2437, device='cuda:0')
+tensor(164.2243, device='cuda:0')
+tensor(104.2747, device='cuda:0')
+tensor(115.3056, device='cuda:0')
+tensor(133.6323, device='cuda:0')
+tensor(100.9750, device='cuda:0')
+tensor(147.4964, device='cuda:0')
+tensor(125.8531, device='cuda:0')
+tensor(147.4638, device='cuda:0')
+tensor(98.3626, device='cuda:0')
+tensor(118.8997, device='cuda:0')
+tensor(125.9370, device='cuda:0')
+tensor(110.1801, device='cuda:0')
+tensor(58.7477, device='cuda:0')
+tensor(141.9918, device='cuda:0')
+tensor(80.9388, device='cuda:0')
+tensor(150.3824, device='cuda:0')
+tensor(100.7255, device='cuda:0')
+tensor(75.9793, device='cuda:0')
+tensor(126.8232, device='cuda:0')
+tensor(113.7971, device='cuda:0')
+tensor(115.7826, device='cuda:0')
+tensor(121.3912, device='cuda:0')
+tensor(111.6045, device='cuda:0')
+tensor(72.4821, device='cuda:0')
+tensor(93.9728, device='cuda:0')
+tensor(76.3282, device='cuda:0')
+tensor(99.9416, device='cuda:0')
+tensor(117.8527, device='cuda:0')
+tensor(145.0283, device='cuda:0')
+tensor(74.9320, device='cuda:0')
+tensor(155.7607, device='cuda:0')
+tensor(128.6416, device='cuda:0')
+tensor(179.6661, device='cuda:0')
+tensor(88.9573, device='cuda:0')
+tensor(129.5510, device='cuda:0')
+tensor(124.9642, device='cuda:0')
+tensor(167.8018, device='cuda:0')
+tensor(121.9644, device='cuda:0')
+tensor(71.6937, device='cuda:0')
+tensor(175.0184, device='cuda:0')
+tensor(129.1425, device='cuda:0')
+tensor(72.6520, device='cuda:0')
+tensor(90.7281, device='cuda:0')
+tensor(117.2116, device='cuda:0')
+tensor(85.6581, device='cuda:0')
+tensor(97.7945, device='cuda:0')
+tensor(160.5564, device='cuda:0')
+tensor(191.9744, device='cuda:0')
+tensor(107.7028, device='cuda:0')
+tensor(126.7242, device='cuda:0')
+tensor(61.1360, device='cuda:0')
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+tensor(124.8447, device='cuda:0')
+tensor(124.0627, device='cuda:0')
+tensor(59.3578, device='cuda:0')
+tensor(133.9666, device='cuda:0')
+tensor(164.6648, device='cuda:0')
+tensor(112.6647, device='cuda:0')
+tensor(205.8060, device='cuda:0')
+tensor(82.3075, device='cuda:0')
+tensor(205.6180, device='cuda:0')
+tensor(154.4736, device='cuda:0')
+tensor(151.9203, device='cuda:0')
+tensor(57.9824, device='cuda:0')
+tensor(139.8969, device='cuda:0')
+tensor(48.6040, device='cuda:0')
+tensor(117.2984, device='cuda:0')
+tensor(110.8709, device='cuda:0')
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:46.5623__valid_loss:306.2475
+epoch:1__train_loss:47.1955__valid_loss:306.2475
+epoch:2__train_loss:46.2171__valid_loss:306.2475
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:46.5867__valid_loss:309.0063
+epoch:1__train_loss:46.9806__valid_loss:309.0063
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:1509.0006__valid_loss:9541.0596
+epoch:1__train_loss:1453.9604__valid_loss:9541.0596
+epoch:2__train_loss:1491.4163__valid_loss:9541.0596
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:0.1894__valid_loss:0.3042
+epoch:1__train_loss:0.1883__valid_loss:0.3042
+epoch:2__train_loss:0.1888__valid_loss:0.3042
+epoch:3__train_loss:0.1886__valid_loss:0.3042
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:643.1295__valid_loss:950.1657
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+tensor([ 560,  560,  560,  560,  560,  560,  560,  560,  560,  560,
+          22,   22,   22,   22,   22,   22,   22,   22,   22,   22,
+         410,  410,  410,  410,  410,  410,  410,  410,  410,  410,
+         468,  468,  468,  468,  468,  468,  468,  468,  468,  468,
+         174,  174,  174,  174,  174,  174,  174,  174,  174,  174,
+         535,  535,  535,  535,  535,  535,  535,  535,  535,  535,
+         511,  511,  511,  511,  511,  511,  511,  511,  511,  511,
+         550,  550,  550,  550,  550,  550,  550,  550,  550,  550,
+         588,  588,  588,  588,  588,  588,  588,  588,  588,  588,
+         613,  613,  613,  613,  613,  613,  613,  613,  613,  613,
+         528,  528,  528,  528,  528,  528,  528,  528,  528,  528,
+         721,  721,  721,  721,  721,  721,  721,  721,  721,  721,
+         543,  543,  543,  543,  543,  543,  543,  543,  543,  543,
+         279,  279,  279,  279,  279,  279,  279,  279,  279,  279,
+         221,  221,  221,  221,  221,  221,  221,  221,  221,  221,
+         366,  366,  366,  366,  366,  366,  366,  366,  366,  366,
+         364,  364,  364,  364,  364,  364,  364,  364,  364,  364,
+           2,    2,    2,    2,    2,    2,    2,    2,    2,    2], device='cuda:0')
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:0.1893__valid_loss:0.3034
+epoch:1__train_loss:0.1890__valid_loss:0.3034
+epoch:2__train_loss:0.1880__valid_loss:0.3034
+epoch:3__train_loss:0.1887__valid_loss:0.3034
+epoch:4__train_loss:0.1879__valid_loss:0.3034
+epoch:5__train_loss:0.1882__valid_loss:0.3034
+epoch:6__train_loss:0.1887__valid_loss:0.3034
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:0.1890__valid_loss:0.3048
+epoch:1__train_loss:0.1885__valid_loss:0.3048
+epoch:2__train_loss:0.1882__valid_loss:0.3048
+epoch:3__train_loss:0.1884__valid_loss:0.3048
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:0.1891__valid_loss:0.3053
+epoch:1__train_loss:0.1888__valid_loss:0.3053
+epoch:2__train_loss:0.1876__valid_loss:0.3053
+epoch:3__train_loss:0.1884__valid_loss:0.3053
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:3138225152.0000__valid_loss:0.2000
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.1, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:99266366275584.0000__valid_loss:0.2000
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:142.3708__valid_loss:112.6334
+epoch:1__train_loss:0.5861__valid_loss:0.2807
+epoch:2__train_loss:0.2045__valid_loss:0.2228
+epoch:3__train_loss:0.2016__valid_loss:0.2501
+epoch:4__train_loss:0.2011__valid_loss:0.2447
+epoch:5__train_loss:0.2016__valid_loss:0.2585
+epoch:6__train_loss:0.2043__valid_loss:0.2492
+epoch:7__train_loss:0.2032__valid_loss:0.2385
+epoch:8__train_loss:0.2025__valid_loss:0.2499
+epoch:9__train_loss:0.2027__valid_loss:0.2699
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:138.0762__valid_loss:469.1523
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:493.4576__valid_loss:157.4184
+epoch:1__train_loss:0.7160__valid_loss:1.1154
+epoch:2__train_loss:0.2221__valid_loss:1.8655
+epoch:3__train_loss:0.2013__valid_loss:1.2926
+epoch:4__train_loss:0.2004__valid_loss:0.5610
+epoch:5__train_loss:0.1995__valid_loss:0.4224
+epoch:6__train_loss:0.2132__valid_loss:1.1516
+epoch:7__train_loss:0.2073__valid_loss:0.3572
+epoch:8__train_loss:0.2087__valid_loss:0.5129
+epoch:9__train_loss:0.2026__valid_loss:1.1963
+epoch:10__train_loss:0.2027__valid_loss:0.2150
+epoch:11__train_loss:0.2054__valid_loss:0.5960
+epoch:12__train_loss:0.1988__valid_loss:0.7308
+epoch:13__train_loss:0.2163__valid_loss:0.3783
+epoch:14__train_loss:0.2020__valid_loss:0.4232
+epoch:15__train_loss:0.1994__valid_loss:0.6358
+epoch:16__train_loss:0.2024__valid_loss:0.9884
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.01, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:528804470287146942464.0000__valid_loss:0.2000
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.001, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:91.7939__valid_loss:8.3422
+epoch:1__train_loss:2.9083__valid_loss:3.0297
+epoch:2__train_loss:0.9929__valid_loss:0.8623
+epoch:3__train_loss:0.6054__valid_loss:0.6400
+epoch:4__train_loss:0.5205__valid_loss:0.8676
+epoch:5__train_loss:0.5228__valid_loss:0.5248
+epoch:6__train_loss:0.4244__valid_loss:0.4980
+epoch:7__train_loss:0.3704__valid_loss:0.3898
+epoch:8__train_loss:0.3648__valid_loss:0.4721
+epoch:9__train_loss:0.3342__valid_loss:0.4568
+epoch:10__train_loss:0.4591__valid_loss:0.3859
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.001, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.001, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:96.1367__valid_loss:9.4660
+epoch:1__train_loss:3.0660__valid_loss:2.2423
+epoch:2__train_loss:1.0004__valid_loss:0.9585
+epoch:3__train_loss:0.6535__valid_loss:0.7550
+epoch:4__train_loss:0.5291__valid_loss:0.7480
+epoch:5__train_loss:0.4599__valid_loss:0.5609
+epoch:6__train_loss:0.3981__valid_loss:0.4963
+epoch:7__train_loss:0.3794__valid_loss:0.4111
+epoch:8__train_loss:0.3935__valid_loss:0.5138
+epoch:9__train_loss:0.3262__valid_loss:0.3829
+epoch:10__train_loss:0.3403__valid_loss:0.5236
+epoch:11__train_loss:0.3046__valid_loss:0.5056
+epoch:12__train_loss:0.3202__valid_loss:0.4666
+epoch:13__train_loss:0.3314__valid_loss:0.3797
+epoch:14__train_loss:0.2912__valid_loss:0.3283
+epoch:15__train_loss:0.2855__valid_loss:0.3823
+epoch:16__train_loss:0.2608__valid_loss:0.3501
+epoch:17__train_loss:0.2891__valid_loss:0.4351
+epoch:18__train_loss:0.2866__valid_loss:0.4040
+epoch:19__train_loss:0.2576__valid_loss:0.3286
+epoch:20__train_loss:0.2642__valid_loss:0.4250
+epoch:21__train_loss:0.2703__valid_loss:0.4537
+epoch:22__train_loss:0.2522__valid_loss:0.3659
+epoch:23__train_loss:0.2450__valid_loss:0.4044
+epoch:24__train_loss:0.2513__valid_loss:0.3714
+epoch:25__train_loss:0.2539__valid_loss:0.4500
+epoch:26__train_loss:0.2526__valid_loss:0.4086
+Namespace(arch='inception_v1_cpm_pretrained', batch_size=180, caffe_sampler=False, crop_height=160, crop_width=80, data_dir='/home/zhouzhp/video-counting/SST-master/data', dataset='market1501', dilation=2, epochs=750, features=512, height=160, logs_dir='/home/zhouzhp/video-counting/SST-master/logs', lr=0.001, margin=0.2, momentum=0.9, seed=1, split=0, use_relu=False, weight_decay=0.0002, width=80, workers=4)
+Files already downloaded and verified
+Market1501 dataset loaded
+  subset   | # ids | # images
+  ---------------------------
+  train    |   651 |    11387
+  val      |   100 |     1549
+  trainval |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+epoch:0__train_loss:93.7623__valid_loss:9.2430
+epoch:1__train_loss:2.6842__valid_loss:1.9671
+epoch:2__train_loss:0.8816__valid_loss:0.8424
+epoch:3__train_loss:0.5564__valid_loss:0.6706
+epoch:4__train_loss:0.4696__valid_loss:0.9178
+epoch:5__train_loss:0.4372__valid_loss:0.5244
+epoch:6__train_loss:0.3742__valid_loss:0.4515
+epoch:7__train_loss:0.3328__valid_loss:0.3678
+epoch:8__train_loss:0.3670__valid_loss:0.4998
+epoch:9__train_loss:0.3062__valid_loss:0.4653
+epoch:10__train_loss:0.3135__valid_loss:0.4655
+epoch:11__train_loss:0.3183__valid_loss:0.4159
+epoch:12__train_loss:0.2744__valid_loss:0.3931
+epoch:13__train_loss:0.3021__valid_loss:0.3815
+epoch:14__train_loss:0.2703__valid_loss:0.3064
+epoch:15__train_loss:0.2628__valid_loss:0.3465
+epoch:16__train_loss:0.2488__valid_loss:0.3189
+epoch:17__train_loss:0.2987__valid_loss:0.4037
+epoch:18__train_loss:0.2716__valid_loss:0.3807
+epoch:19__train_loss:0.2497__valid_loss:0.2940
+epoch:20__train_loss:0.2648__valid_loss:0.3465
+epoch:21__train_loss:0.2359__valid_loss:0.3142
+epoch:22__train_loss:0.2276__valid_loss:0.3366
+epoch:23__train_loss:0.2274__valid_loss:0.3399
+epoch:24__train_loss:0.2331__valid_loss:0.3358
+epoch:25__train_loss:0.2275__valid_loss:0.3249
+epoch:26__train_loss:0.2302__valid_loss:0.3182
+epoch:27__train_loss:0.2307__valid_loss:0.3098
+epoch:28__train_loss:0.2321__valid_loss:0.3388
+epoch:29__train_loss:0.2305__valid_loss:0.3337
+epoch:30__train_loss:0.2254__valid_loss:0.3294
+epoch:31__train_loss:0.2295__valid_loss:0.3287
+epoch:32__train_loss:0.2287__valid_loss:0.3491
+epoch:33__train_loss:0.2255__valid_loss:0.3328
+epoch:34__train_loss:0.2346__valid_loss:0.3522
+epoch:35__train_loss:0.2340__valid_loss:0.3467
+epoch:36__train_loss:0.2274__valid_loss:0.3145
+epoch:37__train_loss:0.2249__valid_loss:0.3175
+epoch:38__train_loss:0.2273__valid_loss:0.3336
+epoch:39__train_loss:0.2286__valid_loss:0.3261
+epoch:40__train_loss:0.2233__valid_loss:0.3333
+epoch:41__train_loss:0.2227__valid_loss:0.3370
+epoch:42__train_loss:0.2314__valid_loss:0.3371
+epoch:43__train_loss:0.2276__valid_loss:0.3369
+epoch:44__train_loss:0.2252__valid_loss:0.3372
+epoch:45__train_loss:0.2198__valid_loss:0.3289
+epoch:46__train_loss:0.2261__valid_loss:0.3286
+epoch:47__train_loss:0.2205__valid_loss:0.3331
+epoch:48__train_loss:0.2264__valid_loss:0.3324
+epoch:49__train_loss:0.2220__valid_loss:0.3333
+epoch:50__train_loss:0.2274__valid_loss:0.3331
+epoch:51__train_loss:0.2291__valid_loss:0.3315
+epoch:52__train_loss:0.2219__valid_loss:0.3262
+epoch:53__train_loss:0.2267__valid_loss:0.3257
+epoch:54__train_loss:0.2248__valid_loss:0.3343
+epoch:55__train_loss:0.2237__valid_loss:0.3272
+epoch:56__train_loss:0.2250__valid_loss:0.3316
+epoch:57__train_loss:0.2278__valid_loss:0.3281
+epoch:58__train_loss:0.2252__valid_loss:0.3255
+epoch:59__train_loss:0.2250__valid_loss:0.3357
+epoch:60__train_loss:0.2283__valid_loss:0.3325
+epoch:61__train_loss:0.2250__valid_loss:0.3320
+epoch:62__train_loss:0.2221__valid_loss:0.3279
+epoch:63__train_loss:0.2250__valid_loss:0.3292
+epoch:64__train_loss:0.2259__valid_loss:0.3400
+epoch:65__train_loss:0.2181__valid_loss:0.3396
+epoch:66__train_loss:0.2277__valid_loss:0.3455
+epoch:67__train_loss:0.2317__valid_loss:0.3268
+epoch:68__train_loss:0.2261__valid_loss:0.3366
+epoch:69__train_loss:0.2282__valid_loss:0.3342
+epoch:70__train_loss:0.2257__valid_loss:0.3362
+epoch:71__train_loss:0.2210__valid_loss:0.3275
+epoch:72__train_loss:0.2310__valid_loss:0.3379
+epoch:73__train_loss:0.2256__valid_loss:0.3342
+epoch:74__train_loss:0.2289__valid_loss:0.3255
+epoch:75__train_loss:0.2256__valid_loss:0.3332
+epoch:76__train_loss:0.2203__valid_loss:0.3352
+epoch:77__train_loss:0.2290__valid_loss:0.3251
+epoch:78__train_loss:0.2193__valid_loss:0.3283
+epoch:79__train_loss:0.2280__valid_loss:0.3264
+epoch:80__train_loss:0.2311__valid_loss:0.3313
+epoch:81__train_loss:0.2286__valid_loss:0.3311
+epoch:82__train_loss:0.2272__valid_loss:0.3368
+epoch:83__train_loss:0.2196__valid_loss:0.3335
+epoch:84__train_loss:0.2250__valid_loss:0.3390
+epoch:85__train_loss:0.2202__valid_loss:0.3340
+epoch:86__train_loss:0.2224__valid_loss:0.3371
+epoch:87__train_loss:0.2275__valid_loss:0.3395
+epoch:88__train_loss:0.2341__valid_loss:0.3311
+epoch:89__train_loss:0.2272__valid_loss:0.3347
+epoch:90__train_loss:0.2279__valid_loss:0.3314
+epoch:91__train_loss:0.2228__valid_loss:0.3348
+epoch:92__train_loss:0.2260__valid_loss:0.3279
+epoch:93__train_loss:0.2199__valid_loss:0.3310
+epoch:94__train_loss:0.2305__valid_loss:0.3387
+epoch:95__train_loss:0.2291__valid_loss:0.3330
+epoch:96__train_loss:0.2275__valid_loss:0.3267
+epoch:97__train_loss:0.2232__valid_loss:0.3277
+epoch:98__train_loss:0.2294__valid_loss:0.3259
+epoch:99__train_loss:0.2262__valid_loss:0.3330
+epoch:100__train_loss:0.2209__valid_loss:0.3292
+epoch:101__train_loss:0.2207__valid_loss:0.3385
+epoch:102__train_loss:0.2197__valid_loss:0.3256
+epoch:103__train_loss:0.2264__valid_loss:0.3323
+epoch:104__train_loss:0.2220__valid_loss:0.3288
+epoch:105__train_loss:0.2294__valid_loss:0.3293
+epoch:106__train_loss:0.2263__valid_loss:0.3250
+epoch:107__train_loss:0.2250__valid_loss:0.3322
+epoch:108__train_loss:0.2213__valid_loss:0.3276
+epoch:109__train_loss:0.2247__valid_loss:0.3294
+epoch:110__train_loss:0.2245__valid_loss:0.3306
+epoch:111__train_loss:0.2272__valid_loss:0.3329
+epoch:112__train_loss:0.2300__valid_loss:0.3359
+epoch:113__train_loss:0.2217__valid_loss:0.3253
+epoch:114__train_loss:0.2257__valid_loss:0.3265
+epoch:115__train_loss:0.2297__valid_loss:0.3344
+epoch:116__train_loss:0.2367__valid_loss:0.3364
+epoch:117__train_loss:0.2239__valid_loss:0.3249
+epoch:118__train_loss:0.2327__valid_loss:0.3398
+epoch:119__train_loss:0.2197__valid_loss:0.3319
+epoch:120__train_loss:0.2260__valid_loss:0.3321
+epoch:121__train_loss:0.2186__valid_loss:0.3344
+epoch:122__train_loss:0.2230__valid_loss:0.3379
+epoch:123__train_loss:0.2259__valid_loss:0.3314
+epoch:124__train_loss:0.2270__valid_loss:0.3316
+epoch:125__train_loss:0.2269__valid_loss:0.3286
+epoch:126__train_loss:0.2233__valid_loss:0.3246
+epoch:127__train_loss:0.2206__valid_loss:0.3307
+epoch:128__train_loss:0.2247__valid_loss:0.3372
+epoch:129__train_loss:0.2249__valid_loss:0.3266
+epoch:130__train_loss:0.2238__valid_loss:0.3299
+epoch:131__train_loss:0.2230__valid_loss:0.3299
+epoch:132__train_loss:0.2230__valid_loss:0.3377
+epoch:133__train_loss:0.2277__valid_loss:0.3260
+epoch:134__train_loss:0.2332__valid_loss:0.3309
+epoch:135__train_loss:0.2263__valid_loss:0.3326
+epoch:136__train_loss:0.2222__valid_loss:0.3331
+epoch:137__train_loss:0.2278__valid_loss:0.3340
+epoch:138__train_loss:0.2251__valid_loss:0.3292
+epoch:139__train_loss:0.2267__valid_loss:0.3277
+epoch:140__train_loss:0.2213__valid_loss:0.3319
+epoch:141__train_loss:0.2212__valid_loss:0.3255
+epoch:142__train_loss:0.2196__valid_loss:0.3358
+epoch:143__train_loss:0.2222__valid_loss:0.3266
+epoch:144__train_loss:0.2197__valid_loss:0.3346
+epoch:145__train_loss:0.2254__valid_loss:0.3371
+epoch:146__train_loss:0.2255__valid_loss:0.3263
+epoch:147__train_loss:0.2269__valid_loss:0.3287
+epoch:148__train_loss:0.2215__valid_loss:0.3346
+epoch:149__train_loss:0.2210__valid_loss:0.3329
+epoch:150__train_loss:0.2305__valid_loss:0.3276
+epoch:151__train_loss:0.2223__valid_loss:0.3329
+epoch:152__train_loss:0.2320__valid_loss:0.3348
+epoch:153__train_loss:0.2183__valid_loss:0.3303
+epoch:154__train_loss:0.2196__valid_loss:0.3316
+epoch:155__train_loss:0.2275__valid_loss:0.3338
+epoch:156__train_loss:0.2268__valid_loss:0.3280
+epoch:157__train_loss:0.2238__valid_loss:0.3329
+epoch:158__train_loss:0.2203__valid_loss:0.3323
+epoch:159__train_loss:0.2243__valid_loss:0.3358
+epoch:160__train_loss:0.2201__valid_loss:0.3356
+epoch:161__train_loss:0.2233__valid_loss:0.3303
+epoch:162__train_loss:0.2207__valid_loss:0.3279
+epoch:163__train_loss:0.2239__valid_loss:0.3313
+epoch:164__train_loss:0.2242__valid_loss:0.3341
+epoch:165__train_loss:0.2304__valid_loss:0.3232
+epoch:166__train_loss:0.2208__valid_loss:0.3275
+epoch:167__train_loss:0.2201__valid_loss:0.3296
+epoch:168__train_loss:0.2203__valid_loss:0.3362
+epoch:169__train_loss:0.2233__valid_loss:0.3297
+epoch:170__train_loss:0.2277__valid_loss:0.3314
+epoch:171__train_loss:0.2203__valid_loss:0.3307
+epoch:172__train_loss:0.2232__valid_loss:0.3399
+epoch:173__train_loss:0.2268__valid_loss:0.3303
+epoch:174__train_loss:0.2261__valid_loss:0.3363
+epoch:175__train_loss:0.2202__valid_loss:0.3244
+epoch:176__train_loss:0.2335__valid_loss:0.3283
+epoch:177__train_loss:0.2240__valid_loss:0.3297
+epoch:178__train_loss:0.2392__valid_loss:0.3329
+epoch:179__train_loss:0.2222__valid_loss:0.3296
+epoch:180__train_loss:0.2311__valid_loss:0.3311
+epoch:181__train_loss:0.2195__valid_loss:0.3340
+epoch:182__train_loss:0.2277__valid_loss:0.3346
+epoch:183__train_loss:0.2300__valid_loss:0.3338
+epoch:184__train_loss:0.2270__valid_loss:0.3353
+epoch:185__train_loss:0.2287__valid_loss:0.3313
+epoch:186__train_loss:0.2248__valid_loss:0.3309
+epoch:187__train_loss:0.2275__valid_loss:0.3314
+epoch:188__train_loss:0.2207__valid_loss:0.3294
+epoch:189__train_loss:0.2263__valid_loss:0.3314
+epoch:190__train_loss:0.2146__valid_loss:0.3274
+epoch:191__train_loss:0.2259__valid_loss:0.3327
+epoch:192__train_loss:0.2221__valid_loss:0.3350
+epoch:193__train_loss:0.2397__valid_loss:0.3304
+epoch:194__train_loss:0.2253__valid_loss:0.3305
+epoch:195__train_loss:0.2282__valid_loss:0.3202
+epoch:196__train_loss:0.2196__valid_loss:0.3309
+epoch:197__train_loss:0.2253__valid_loss:0.3327
+epoch:198__train_loss:0.2247__valid_loss:0.3238
+epoch:199__train_loss:0.2273__valid_loss:0.3374
+epoch:200__train_loss:0.2243__valid_loss:0.3192
+epoch:201__train_loss:0.2243__valid_loss:0.3314
+epoch:202__train_loss:0.2254__valid_loss:0.3275
+epoch:203__train_loss:0.2246__valid_loss:0.3353
+epoch:204__train_loss:0.2214__valid_loss:0.3402
+epoch:205__train_loss:0.2279__valid_loss:0.3295
+epoch:206__train_loss:0.2297__valid_loss:0.3277
+epoch:207__train_loss:0.2226__valid_loss:0.3349
+epoch:208__train_loss:0.2280__valid_loss:0.3306
+epoch:209__train_loss:0.2354__valid_loss:0.3301
+epoch:210__train_loss:0.2217__valid_loss:0.3340
+epoch:211__train_loss:0.2206__valid_loss:0.3322
+epoch:212__train_loss:0.2219__valid_loss:0.3383
+epoch:213__train_loss:0.2230__valid_loss:0.3250
+epoch:214__train_loss:0.2271__valid_loss:0.3338
+epoch:215__train_loss:0.2247__valid_loss:0.3318
+epoch:216__train_loss:0.2270__valid_loss:0.3298
+epoch:217__train_loss:0.2181__valid_loss:0.3242
+epoch:218__train_loss:0.2311__valid_loss:0.3312
+epoch:219__train_loss:0.2269__valid_loss:0.3316
+epoch:220__train_loss:0.2219__valid_loss:0.3244
+epoch:221__train_loss:0.2336__valid_loss:0.3362
+epoch:222__train_loss:0.2214__valid_loss:0.3350
+epoch:223__train_loss:0.2233__valid_loss:0.3310
+epoch:224__train_loss:0.2260__valid_loss:0.3292
+epoch:225__train_loss:0.2230__valid_loss:0.3290
+epoch:226__train_loss:0.2223__valid_loss:0.3293
+epoch:227__train_loss:0.2222__valid_loss:0.3318
+epoch:228__train_loss:0.2224__valid_loss:0.3354
+epoch:229__train_loss:0.2280__valid_loss:0.3330
+epoch:230__train_loss:0.2264__valid_loss:0.3320
+epoch:231__train_loss:0.2290__valid_loss:0.3246
+epoch:232__train_loss:0.2313__valid_loss:0.3367
+epoch:233__train_loss:0.2243__valid_loss:0.3305
+epoch:234__train_loss:0.2250__valid_loss:0.3321
+epoch:235__train_loss:0.2261__valid_loss:0.3284
+epoch:236__train_loss:0.2221__valid_loss:0.3348
+epoch:237__train_loss:0.2232__valid_loss:0.3300
+epoch:238__train_loss:0.2222__valid_loss:0.3324
+epoch:239__train_loss:0.2236__valid_loss:0.3286
+epoch:240__train_loss:0.2297__valid_loss:0.3281
+epoch:241__train_loss:0.2157__valid_loss:0.3384
+epoch:242__train_loss:0.2247__valid_loss:0.3341
+epoch:243__train_loss:0.2236__valid_loss:0.3391
+epoch:244__train_loss:0.2228__valid_loss:0.3382
+epoch:245__train_loss:0.2240__valid_loss:0.3293
+epoch:246__train_loss:0.2283__valid_loss:0.3286
+epoch:247__train_loss:0.2242__valid_loss:0.3311
+epoch:248__train_loss:0.2336__valid_loss:0.3252
+epoch:249__train_loss:0.2288__valid_loss:0.3328
+epoch:250__train_loss:0.2271__valid_loss:0.3322
+epoch:251__train_loss:0.2289__valid_loss:0.3271
+epoch:252__train_loss:0.2303__valid_loss:0.3327
+epoch:253__train_loss:0.2287__valid_loss:0.3383
+epoch:254__train_loss:0.2196__valid_loss:0.3370
+epoch:255__train_loss:0.2268__valid_loss:0.3386
+epoch:256__train_loss:0.2232__valid_loss:0.3287
+epoch:257__train_loss:0.2259__valid_loss:0.3313
+epoch:258__train_loss:0.2223__valid_loss:0.3331
+epoch:259__train_loss:0.2296__valid_loss:0.3268
+epoch:260__train_loss:0.2215__valid_loss:0.3293
+epoch:261__train_loss:0.2211__valid_loss:0.3367
+epoch:262__train_loss:0.2217__valid_loss:0.3290
+epoch:263__train_loss:0.2354__valid_loss:0.3383
+epoch:264__train_loss:0.2259__valid_loss:0.3424
+epoch:265__train_loss:0.2236__valid_loss:0.3299
+epoch:266__train_loss:0.2235__valid_loss:0.3295
+epoch:267__train_loss:0.2310__valid_loss:0.3397
+epoch:268__train_loss:0.2289__valid_loss:0.3318
+epoch:269__train_loss:0.2305__valid_loss:0.3326
+epoch:270__train_loss:0.2275__valid_loss:0.3365
+epoch:271__train_loss:0.2224__valid_loss:0.3405
+epoch:272__train_loss:0.2250__valid_loss:0.3276
+epoch:273__train_loss:0.2289__valid_loss:0.3299
+epoch:274__train_loss:0.2255__valid_loss:0.3401
+epoch:275__train_loss:0.2291__valid_loss:0.3305
+epoch:276__train_loss:0.2264__valid_loss:0.3268
+epoch:277__train_loss:0.2284__valid_loss:0.3276
+epoch:278__train_loss:0.2256__valid_loss:0.3270
+epoch:279__train_loss:0.2270__valid_loss:0.3276
+epoch:280__train_loss:0.2257__valid_loss:0.3358
+epoch:281__train_loss:0.2214__valid_loss:0.3336
+epoch:282__train_loss:0.2219__valid_loss:0.3371
+epoch:283__train_loss:0.2221__valid_loss:0.3309
+epoch:284__train_loss:0.2271__valid_loss:0.3399
+epoch:285__train_loss:0.2275__valid_loss:0.3237
+epoch:286__train_loss:0.2216__valid_loss:0.3393
+epoch:287__train_loss:0.2230__valid_loss:0.3294
+epoch:288__train_loss:0.2303__valid_loss:0.3345
+epoch:289__train_loss:0.2255__valid_loss:0.3285
+epoch:290__train_loss:0.2240__valid_loss:0.3322
+epoch:291__train_loss:0.2274__valid_loss:0.3263
+epoch:292__train_loss:0.2255__valid_loss:0.3390
+epoch:293__train_loss:0.2221__valid_loss:0.3282
+epoch:294__train_loss:0.2263__valid_loss:0.3258
+epoch:295__train_loss:0.2221__valid_loss:0.3324
+epoch:296__train_loss:0.2229__valid_loss:0.3279
+epoch:297__train_loss:0.2236__valid_loss:0.3333
+epoch:298__train_loss:0.2193__valid_loss:0.3282
+epoch:299__train_loss:0.2202__valid_loss:0.3321
+epoch:300__train_loss:0.2283__valid_loss:0.3269
+epoch:301__train_loss:0.2226__valid_loss:0.3305
+epoch:302__train_loss:0.2271__valid_loss:0.3312
+epoch:303__train_loss:0.2254__valid_loss:0.3273
+epoch:304__train_loss:0.2199__valid_loss:0.3258
+epoch:305__train_loss:0.2186__valid_loss:0.3347
+epoch:306__train_loss:0.2249__valid_loss:0.3315
+epoch:307__train_loss:0.2283__valid_loss:0.3294
+epoch:308__train_loss:0.2315__valid_loss:0.3344
+epoch:309__train_loss:0.2268__valid_loss:0.3309
+epoch:310__train_loss:0.2263__valid_loss:0.3338
+epoch:311__train_loss:0.2278__valid_loss:0.3364
+epoch:312__train_loss:0.2250__valid_loss:0.3298
+epoch:313__train_loss:0.2253__valid_loss:0.3242
+epoch:314__train_loss:0.2336__valid_loss:0.3286
+epoch:315__train_loss:0.2230__valid_loss:0.3284
+epoch:316__train_loss:0.2233__valid_loss:0.3259
+epoch:317__train_loss:0.2330__valid_loss:0.3292
+epoch:318__train_loss:0.2258__valid_loss:0.3346
+epoch:319__train_loss:0.2237__valid_loss:0.3396
+epoch:320__train_loss:0.2215__valid_loss:0.3316
+epoch:321__train_loss:0.2253__valid_loss:0.3332
+epoch:322__train_loss:0.2234__valid_loss:0.3406
+epoch:323__train_loss:0.2208__valid_loss:0.3291
+epoch:324__train_loss:0.2242__valid_loss:0.3321
+epoch:325__train_loss:0.2272__valid_loss:0.3370
+epoch:326__train_loss:0.2269__valid_loss:0.3311
+epoch:327__train_loss:0.2213__valid_loss:0.3317
+epoch:328__train_loss:0.2277__valid_loss:0.3273
+epoch:329__train_loss:0.2231__valid_loss:0.3315
+epoch:330__train_loss:0.2284__valid_loss:0.3335
+epoch:331__train_loss:0.2181__valid_loss:0.3325
+epoch:332__train_loss:0.2262__valid_loss:0.3366
+epoch:333__train_loss:0.2243__valid_loss:0.3280
+epoch:334__train_loss:0.2187__valid_loss:0.3285
+epoch:335__train_loss:0.2205__valid_loss:0.3300
+epoch:336__train_loss:0.2221__valid_loss:0.3257
+epoch:337__train_loss:0.2298__valid_loss:0.3245
+epoch:338__train_loss:0.2251__valid_loss:0.3284
+epoch:339__train_loss:0.2285__valid_loss:0.3306
+epoch:340__train_loss:0.2317__valid_loss:0.3332
+epoch:341__train_loss:0.2252__valid_loss:0.3308
+epoch:342__train_loss:0.2201__valid_loss:0.3305
+epoch:343__train_loss:0.2303__valid_loss:0.3292
+epoch:344__train_loss:0.2189__valid_loss:0.3221
+epoch:345__train_loss:0.2240__valid_loss:0.3277
+epoch:346__train_loss:0.2214__valid_loss:0.3353
+epoch:347__train_loss:0.2240__valid_loss:0.3296
+epoch:348__train_loss:0.2288__valid_loss:0.3281
+epoch:349__train_loss:0.2290__valid_loss:0.3311
+epoch:350__train_loss:0.2237__valid_loss:0.3297
+epoch:351__train_loss:0.2272__valid_loss:0.3365
+epoch:352__train_loss:0.2272__valid_loss:0.3280
+epoch:353__train_loss:0.2226__valid_loss:0.3343
+epoch:354__train_loss:0.2187__valid_loss:0.3230
+epoch:355__train_loss:0.2209__valid_loss:0.3368
+epoch:356__train_loss:0.2309__valid_loss:0.3326
+epoch:357__train_loss:0.2267__valid_loss:0.3275
+epoch:358__train_loss:0.2221__valid_loss:0.3327
+epoch:359__train_loss:0.2278__valid_loss:0.3320
+epoch:360__train_loss:0.2217__valid_loss:0.3334
+epoch:361__train_loss:0.2236__valid_loss:0.3294
+epoch:362__train_loss:0.2235__valid_loss:0.3316
+epoch:363__train_loss:0.2229__valid_loss:0.3323
+epoch:364__train_loss:0.2279__valid_loss:0.3288
+epoch:365__train_loss:0.2261__valid_loss:0.3293
+epoch:366__train_loss:0.2267__valid_loss:0.3311
+epoch:367__train_loss:0.2242__valid_loss:0.3244
+epoch:368__train_loss:0.2247__valid_loss:0.3344
+epoch:369__train_loss:0.2310__valid_loss:0.3302
+epoch:370__train_loss:0.2284__valid_loss:0.3283
+epoch:371__train_loss:0.2212__valid_loss:0.3332
+epoch:372__train_loss:0.2249__valid_loss:0.3360
+epoch:373__train_loss:0.2176__valid_loss:0.3274
+epoch:374__train_loss:0.2307__valid_loss:0.3293
+epoch:375__train_loss:0.2264__valid_loss:0.3269
+epoch:376__train_loss:0.2331__valid_loss:0.3263
+epoch:377__train_loss:0.2245__valid_loss:0.3317
+epoch:378__train_loss:0.2307__valid_loss:0.3384
+epoch:379__train_loss:0.2282__valid_loss:0.3324
+epoch:380__train_loss:0.2312__valid_loss:0.3279
+epoch:381__train_loss:0.2270__valid_loss:0.3325
+epoch:382__train_loss:0.2292__valid_loss:0.3330
+epoch:383__train_loss:0.2333__valid_loss:0.3281
+epoch:384__train_loss:0.2287__valid_loss:0.3371
+epoch:385__train_loss:0.2265__valid_loss:0.3287
+epoch:386__train_loss:0.2198__valid_loss:0.3273
+epoch:387__train_loss:0.2213__valid_loss:0.3259
+epoch:388__train_loss:0.2209__valid_loss:0.3277
+epoch:389__train_loss:0.2231__valid_loss:0.3260
+epoch:390__train_loss:0.2227__valid_loss:0.3243
+epoch:391__train_loss:0.2272__valid_loss:0.3320
+epoch:392__train_loss:0.2257__valid_loss:0.3277
+epoch:393__train_loss:0.2298__valid_loss:0.3361
+epoch:394__train_loss:0.2294__valid_loss:0.3355
+epoch:395__train_loss:0.2287__valid_loss:0.3330
+epoch:396__train_loss:0.2324__valid_loss:0.3348
+epoch:397__train_loss:0.2255__valid_loss:0.3276
+epoch:398__train_loss:0.2201__valid_loss:0.3362
+epoch:399__train_loss:0.2233__valid_loss:0.3353
+epoch:400__train_loss:0.2222__valid_loss:0.3296
+epoch:401__train_loss:0.2229__valid_loss:0.3329
+epoch:402__train_loss:0.2231__valid_loss:0.3290
+epoch:403__train_loss:0.2293__valid_loss:0.3380
+epoch:404__train_loss:0.2216__valid_loss:0.3357
+epoch:405__train_loss:0.2261__valid_loss:0.3375
+epoch:406__train_loss:0.2276__valid_loss:0.3259
+epoch:407__train_loss:0.2241__valid_loss:0.3360
+epoch:408__train_loss:0.2313__valid_loss:0.3306
+epoch:409__train_loss:0.2329__valid_loss:0.3321
+epoch:410__train_loss:0.2245__valid_loss:0.3326
+epoch:411__train_loss:0.2232__valid_loss:0.3337
+epoch:412__train_loss:0.2290__valid_loss:0.3366
+epoch:413__train_loss:0.2298__valid_loss:0.3278
+epoch:414__train_loss:0.2202__valid_loss:0.3326
+epoch:415__train_loss:0.2202__valid_loss:0.3322
+epoch:416__train_loss:0.2251__valid_loss:0.3321
+epoch:417__train_loss:0.2189__valid_loss:0.3237
+epoch:418__train_loss:0.2212__valid_loss:0.3295
+epoch:419__train_loss:0.2274__valid_loss:0.3337
+epoch:420__train_loss:0.2256__valid_loss:0.3316
+epoch:421__train_loss:0.2230__valid_loss:0.3351
+epoch:422__train_loss:0.2260__valid_loss:0.3316
+epoch:423__train_loss:0.2305__valid_loss:0.3289
+epoch:424__train_loss:0.2251__valid_loss:0.3276
+epoch:425__train_loss:0.2301__valid_loss:0.3418
+epoch:426__train_loss:0.2225__valid_loss:0.3357
+epoch:427__train_loss:0.2228__valid_loss:0.3282
+epoch:428__train_loss:0.2334__valid_loss:0.3258
+epoch:429__train_loss:0.2267__valid_loss:0.3296
+epoch:430__train_loss:0.2201__valid_loss:0.3338
+epoch:431__train_loss:0.2235__valid_loss:0.3392
+epoch:432__train_loss:0.2234__valid_loss:0.3344
+epoch:433__train_loss:0.2241__valid_loss:0.3295
+epoch:434__train_loss:0.2226__valid_loss:0.3306
+epoch:435__train_loss:0.2284__valid_loss:0.3288
+epoch:436__train_loss:0.2292__valid_loss:0.3289
+epoch:437__train_loss:0.2323__valid_loss:0.3361
+epoch:438__train_loss:0.2287__valid_loss:0.3318
+epoch:439__train_loss:0.2194__valid_loss:0.3265
+epoch:440__train_loss:0.2259__valid_loss:0.3288
+epoch:441__train_loss:0.2226__valid_loss:0.3205
+epoch:442__train_loss:0.2292__valid_loss:0.3331
+epoch:443__train_loss:0.2295__valid_loss:0.3224
+epoch:444__train_loss:0.2189__valid_loss:0.3286
+epoch:445__train_loss:0.2189__valid_loss:0.3276
+epoch:446__train_loss:0.2255__valid_loss:0.3393
+epoch:447__train_loss:0.2207__valid_loss:0.3333
+epoch:448__train_loss:0.2292__valid_loss:0.3372
+epoch:449__train_loss:0.2261__valid_loss:0.3262
+epoch:450__train_loss:0.2268__valid_loss:0.3283
+epoch:451__train_loss:0.2255__valid_loss:0.3265
+epoch:452__train_loss:0.2203__valid_loss:0.3355
+epoch:453__train_loss:0.2307__valid_loss:0.3335
+epoch:454__train_loss:0.2214__valid_loss:0.3315
+epoch:455__train_loss:0.2253__valid_loss:0.3329
+epoch:456__train_loss:0.2225__valid_loss:0.3293
+epoch:457__train_loss:0.2259__valid_loss:0.3289
+epoch:458__train_loss:0.2224__valid_loss:0.3335
+epoch:459__train_loss:0.2270__valid_loss:0.3324
+epoch:460__train_loss:0.2302__valid_loss:0.3369
+epoch:461__train_loss:0.2263__valid_loss:0.3324
+epoch:462__train_loss:0.2216__valid_loss:0.3348
+epoch:463__train_loss:0.2236__valid_loss:0.3217
+epoch:464__train_loss:0.2293__valid_loss:0.3334
+epoch:465__train_loss:0.2278__valid_loss:0.3345
+epoch:466__train_loss:0.2201__valid_loss:0.3345
+epoch:467__train_loss:0.2256__valid_loss:0.3321
+epoch:468__train_loss:0.2349__valid_loss:0.3308
+epoch:469__train_loss:0.2224__valid_loss:0.3293
+epoch:470__train_loss:0.2248__valid_loss:0.3277
+epoch:471__train_loss:0.2229__valid_loss:0.3304
+epoch:472__train_loss:0.2286__valid_loss:0.3281
+epoch:473__train_loss:0.2228__valid_loss:0.3313
+epoch:474__train_loss:0.2209__valid_loss:0.3334
+epoch:475__train_loss:0.2246__valid_loss:0.3319
+epoch:476__train_loss:0.2254__valid_loss:0.3360
+epoch:477__train_loss:0.2206__valid_loss:0.3320
+epoch:478__train_loss:0.2261__valid_loss:0.3317
+epoch:479__train_loss:0.2301__valid_loss:0.3268
+epoch:480__train_loss:0.2271__valid_loss:0.3266
+epoch:481__train_loss:0.2254__valid_loss:0.3343
+epoch:482__train_loss:0.2274__valid_loss:0.3346
+epoch:483__train_loss:0.2294__valid_loss:0.3296
+epoch:484__train_loss:0.2257__valid_loss:0.3375
+epoch:485__train_loss:0.2243__valid_loss:0.3245
+epoch:486__train_loss:0.2209__valid_loss:0.3235
+epoch:487__train_loss:0.2252__valid_loss:0.3359
+epoch:488__train_loss:0.2306__valid_loss:0.3254
+epoch:489__train_loss:0.2327__valid_loss:0.3313
+epoch:490__train_loss:0.2263__valid_loss:0.3276
+epoch:491__train_loss:0.2272__valid_loss:0.3320
+epoch:492__train_loss:0.2176__valid_loss:0.3331
+epoch:493__train_loss:0.2239__valid_loss:0.3308
+epoch:494__train_loss:0.2199__valid_loss:0.3252
+epoch:495__train_loss:0.2240__valid_loss:0.3282
+epoch:496__train_loss:0.2213__valid_loss:0.3340
+epoch:497__train_loss:0.2226__valid_loss:0.3314
+epoch:498__train_loss:0.2248__valid_loss:0.3296
+epoch:499__train_loss:0.2234__valid_loss:0.3309
+epoch:500__train_loss:0.2408__valid_loss:0.3284
+epoch:501__train_loss:0.2211__valid_loss:0.3328
+epoch:502__train_loss:0.2298__valid_loss:0.3308
+epoch:503__train_loss:0.2273__valid_loss:0.3262
+epoch:504__train_loss:0.2209__valid_loss:0.3345
+epoch:505__train_loss:0.2288__valid_loss:0.3252
+epoch:506__train_loss:0.2260__valid_loss:0.3299
+epoch:507__train_loss:0.2189__valid_loss:0.3246
+epoch:508__train_loss:0.2225__valid_loss:0.3324
+epoch:509__train_loss:0.2221__valid_loss:0.3295
+epoch:510__train_loss:0.2233__valid_loss:0.3355
+epoch:511__train_loss:0.2224__valid_loss:0.3307
+epoch:512__train_loss:0.2358__valid_loss:0.3325
+epoch:513__train_loss:0.2223__valid_loss:0.3340
+epoch:514__train_loss:0.2219__valid_loss:0.3340
+epoch:515__train_loss:0.2288__valid_loss:0.3392
+epoch:516__train_loss:0.2227__valid_loss:0.3358
+epoch:517__train_loss:0.2194__valid_loss:0.3244
+epoch:518__train_loss:0.2230__valid_loss:0.3303
+epoch:519__train_loss:0.2181__valid_loss:0.3238
+epoch:520__train_loss:0.2204__valid_loss:0.3279
+epoch:521__train_loss:0.2243__valid_loss:0.3247
+epoch:522__train_loss:0.2203__valid_loss:0.3321
+epoch:523__train_loss:0.2240__valid_loss:0.3274
+epoch:524__train_loss:0.2228__valid_loss:0.3298
+epoch:525__train_loss:0.2233__valid_loss:0.3292
+epoch:526__train_loss:0.2310__valid_loss:0.3365
+epoch:527__train_loss:0.2265__valid_loss:0.3341
+epoch:528__train_loss:0.2240__valid_loss:0.3293
+epoch:529__train_loss:0.2219__valid_loss:0.3323
+epoch:530__train_loss:0.2263__valid_loss:0.3313
+epoch:531__train_loss:0.2289__valid_loss:0.3298
+epoch:532__train_loss:0.2276__valid_loss:0.3233
+epoch:533__train_loss:0.2218__valid_loss:0.3245
+epoch:534__train_loss:0.2273__valid_loss:0.3385
+epoch:535__train_loss:0.2267__valid_loss:0.3327
+epoch:536__train_loss:0.2211__valid_loss:0.3356
+epoch:537__train_loss:0.2219__valid_loss:0.3239
+epoch:538__train_loss:0.2312__valid_loss:0.3322
+epoch:539__train_loss:0.2287__valid_loss:0.3354
+epoch:540__train_loss:0.2286__valid_loss:0.3235
+epoch:541__train_loss:0.2173__valid_loss:0.3329
+epoch:542__train_loss:0.2229__valid_loss:0.3342
+epoch:543__train_loss:0.2207__valid_loss:0.3266
+epoch:544__train_loss:0.2213__valid_loss:0.3343
+epoch:545__train_loss:0.2265__valid_loss:0.3290
+epoch:546__train_loss:0.2207__valid_loss:0.3301
+epoch:547__train_loss:0.2239__valid_loss:0.3249
+epoch:548__train_loss:0.2260__valid_loss:0.3212
+epoch:549__train_loss:0.2262__valid_loss:0.3321
+epoch:550__train_loss:0.2240__valid_loss:0.3266
+epoch:551__train_loss:0.2230__valid_loss:0.3372
+epoch:552__train_loss:0.2230__valid_loss:0.3310
+epoch:553__train_loss:0.2335__valid_loss:0.3279
+epoch:554__train_loss:0.2240__valid_loss:0.3317
+epoch:555__train_loss:0.2232__valid_loss:0.3305
+epoch:556__train_loss:0.2235__valid_loss:0.3373
+epoch:557__train_loss:0.2149__valid_loss:0.3288
+epoch:558__train_loss:0.2237__valid_loss:0.3343
+epoch:559__train_loss:0.2211__valid_loss:0.3365
+epoch:560__train_loss:0.2199__valid_loss:0.3254
+epoch:561__train_loss:0.2211__valid_loss:0.3342
+epoch:562__train_loss:0.2279__valid_loss:0.3282
+epoch:563__train_loss:0.2292__valid_loss:0.3297
+epoch:564__train_loss:0.2284__valid_loss:0.3258
+epoch:565__train_loss:0.2221__valid_loss:0.3297
+epoch:566__train_loss:0.2198__valid_loss:0.3308
+epoch:567__train_loss:0.2290__valid_loss:0.3317
+epoch:568__train_loss:0.2208__valid_loss:0.3345
+epoch:569__train_loss:0.2226__valid_loss:0.3393
+epoch:570__train_loss:0.2250__valid_loss:0.3284
+epoch:571__train_loss:0.2193__valid_loss:0.3236
+epoch:572__train_loss:0.2234__valid_loss:0.3305
+epoch:573__train_loss:0.2277__valid_loss:0.3224
+epoch:574__train_loss:0.2267__valid_loss:0.3347
+epoch:575__train_loss:0.2301__valid_loss:0.3279
+epoch:576__train_loss:0.2302__valid_loss:0.3321
+epoch:577__train_loss:0.2216__valid_loss:0.3345
+epoch:578__train_loss:0.2245__valid_loss:0.3345
+epoch:579__train_loss:0.2283__valid_loss:0.3353
+epoch:580__train_loss:0.2221__valid_loss:0.3305
+epoch:581__train_loss:0.2220__valid_loss:0.3236
+epoch:582__train_loss:0.2245__valid_loss:0.3381
+epoch:583__train_loss:0.2259__valid_loss:0.3368
+epoch:584__train_loss:0.2239__valid_loss:0.3304
+epoch:585__train_loss:0.2234__valid_loss:0.3314
+epoch:586__train_loss:0.2236__valid_loss:0.3299
+epoch:587__train_loss:0.2247__valid_loss:0.3299
+epoch:588__train_loss:0.2233__valid_loss:0.3318
+epoch:589__train_loss:0.2260__valid_loss:0.3265
+epoch:590__train_loss:0.2311__valid_loss:0.3344
+epoch:591__train_loss:0.2297__valid_loss:0.3362
+epoch:592__train_loss:0.2204__valid_loss:0.3350
+epoch:593__train_loss:0.2305__valid_loss:0.3352
+epoch:594__train_loss:0.2220__valid_loss:0.3308
+epoch:595__train_loss:0.2277__valid_loss:0.3292
+epoch:596__train_loss:0.2270__valid_loss:0.3278
+epoch:597__train_loss:0.2264__valid_loss:0.3289
+epoch:598__train_loss:0.2293__valid_loss:0.3282
+epoch:599__train_loss:0.2242__valid_loss:0.3297
+epoch:600__train_loss:0.2267__valid_loss:0.3278
+epoch:601__train_loss:0.2213__valid_loss:0.3276
+epoch:602__train_loss:0.2213__valid_loss:0.3315
+epoch:603__train_loss:0.2291__valid_loss:0.3299
+epoch:604__train_loss:0.2322__valid_loss:0.3328
+epoch:605__train_loss:0.2247__valid_loss:0.3372
+epoch:606__train_loss:0.2211__valid_loss:0.3297
+epoch:607__train_loss:0.2268__valid_loss:0.3298
+epoch:608__train_loss:0.2240__valid_loss:0.3298
+epoch:609__train_loss:0.2251__valid_loss:0.3267
+epoch:610__train_loss:0.2224__valid_loss:0.3341
+epoch:611__train_loss:0.2311__valid_loss:0.3279
+epoch:612__train_loss:0.2234__valid_loss:0.3268
+epoch:613__train_loss:0.2284__valid_loss:0.3340
+epoch:614__train_loss:0.2185__valid_loss:0.3327
+epoch:615__train_loss:0.2263__valid_loss:0.3367
+epoch:616__train_loss:0.2255__valid_loss:0.3288
+epoch:617__train_loss:0.2237__valid_loss:0.3285
+epoch:618__train_loss:0.2229__valid_loss:0.3290
+epoch:619__train_loss:0.2208__valid_loss:0.3320
+epoch:620__train_loss:0.2246__valid_loss:0.3345
+epoch:621__train_loss:0.2255__valid_loss:0.3336
+epoch:622__train_loss:0.2315__valid_loss:0.3297
+epoch:623__train_loss:0.2244__valid_loss:0.3314
+epoch:624__train_loss:0.2240__valid_loss:0.3285
+epoch:625__train_loss:0.2218__valid_loss:0.3331
+epoch:626__train_loss:0.2317__valid_loss:0.3321
+epoch:627__train_loss:0.2185__valid_loss:0.3335
+epoch:628__train_loss:0.2272__valid_loss:0.3313
+epoch:629__train_loss:0.2191__valid_loss:0.3315
+epoch:630__train_loss:0.2204__valid_loss:0.3347
+epoch:631__train_loss:0.2252__valid_loss:0.3367
+epoch:632__train_loss:0.2267__valid_loss:0.3259
+epoch:633__train_loss:0.2206__valid_loss:0.3272
+epoch:634__train_loss:0.2271__valid_loss:0.3311
+epoch:635__train_loss:0.2227__valid_loss:0.3329
+epoch:636__train_loss:0.2269__valid_loss:0.3294
+epoch:637__train_loss:0.2235__valid_loss:0.3272
+epoch:638__train_loss:0.2264__valid_loss:0.3338
+epoch:639__train_loss:0.2165__valid_loss:0.3279
+epoch:640__train_loss:0.2219__valid_loss:0.3280
+epoch:641__train_loss:0.2238__valid_loss:0.3296
+epoch:642__train_loss:0.2218__valid_loss:0.3310
+epoch:643__train_loss:0.2267__valid_loss:0.3323
+epoch:644__train_loss:0.2210__valid_loss:0.3364
+epoch:645__train_loss:0.2225__valid_loss:0.3348
+epoch:646__train_loss:0.2234__valid_loss:0.3282
+epoch:647__train_loss:0.2243__valid_loss:0.3358
+epoch:648__train_loss:0.2232__valid_loss:0.3393
+epoch:649__train_loss:0.2265__valid_loss:0.3341
+epoch:650__train_loss:0.2264__valid_loss:0.3332
+epoch:651__train_loss:0.2242__valid_loss:0.3341
+epoch:652__train_loss:0.2256__valid_loss:0.3279
+epoch:653__train_loss:0.2198__valid_loss:0.3287
+epoch:654__train_loss:0.2230__valid_loss:0.3267
+epoch:655__train_loss:0.2213__valid_loss:0.3373
+epoch:656__train_loss:0.2340__valid_loss:0.3323
+epoch:657__train_loss:0.2244__valid_loss:0.3330
+epoch:658__train_loss:0.2204__valid_loss:0.3303
+epoch:659__train_loss:0.2244__valid_loss:0.3316
+epoch:660__train_loss:0.2195__valid_loss:0.3301
+epoch:661__train_loss:0.2276__valid_loss:0.3321
+epoch:662__train_loss:0.2249__valid_loss:0.3318
+epoch:663__train_loss:0.2221__valid_loss:0.3250
+epoch:664__train_loss:0.2277__valid_loss:0.3407
+epoch:665__train_loss:0.2252__valid_loss:0.3380
+epoch:666__train_loss:0.2274__valid_loss:0.3310
+epoch:667__train_loss:0.2293__valid_loss:0.3402
+epoch:668__train_loss:0.2213__valid_loss:0.3303
+epoch:669__train_loss:0.2289__valid_loss:0.3249
+epoch:670__train_loss:0.2241__valid_loss:0.3299
+epoch:671__train_loss:0.2268__valid_loss:0.3348
+epoch:672__train_loss:0.2227__valid_loss:0.3287
+epoch:673__train_loss:0.2265__valid_loss:0.3308
+epoch:674__train_loss:0.2256__valid_loss:0.3302
+epoch:675__train_loss:0.2270__valid_loss:0.3317
+epoch:676__train_loss:0.2229__valid_loss:0.3339
+epoch:677__train_loss:0.2250__valid_loss:0.3256
+epoch:678__train_loss:0.2247__valid_loss:0.3285
+epoch:679__train_loss:0.2249__valid_loss:0.3269
+epoch:680__train_loss:0.2295__valid_loss:0.3296
+epoch:681__train_loss:0.2358__valid_loss:0.3335
+epoch:682__train_loss:0.2251__valid_loss:0.3318
+epoch:683__train_loss:0.2216__valid_loss:0.3311
+epoch:684__train_loss:0.2256__valid_loss:0.3276
+epoch:685__train_loss:0.2249__valid_loss:0.3321
+epoch:686__train_loss:0.2280__valid_loss:0.3275
+epoch:687__train_loss:0.2257__valid_loss:0.3293
+epoch:688__train_loss:0.2296__valid_loss:0.3315
+epoch:689__train_loss:0.2304__valid_loss:0.3344
+epoch:690__train_loss:0.2218__valid_loss:0.3244
+epoch:691__train_loss:0.2275__valid_loss:0.3320
+epoch:692__train_loss:0.2226__valid_loss:0.3264
+epoch:693__train_loss:0.2242__valid_loss:0.3329
+epoch:694__train_loss:0.2257__valid_loss:0.3325
+epoch:695__train_loss:0.2271__valid_loss:0.3363
+epoch:696__train_loss:0.2211__valid_loss:0.3319
+epoch:697__train_loss:0.2305__valid_loss:0.3287
+epoch:698__train_loss:0.2269__valid_loss:0.3341
+epoch:699__train_loss:0.2239__valid_loss:0.3347
+epoch:700__train_loss:0.2262__valid_loss:0.3377
+epoch:701__train_loss:0.2225__valid_loss:0.3302
+epoch:702__train_loss:0.2203__valid_loss:0.3242
+epoch:703__train_loss:0.2249__valid_loss:0.3249
+epoch:704__train_loss:0.2240__valid_loss:0.3279
+epoch:705__train_loss:0.2272__valid_loss:0.3323
+epoch:706__train_loss:0.2201__valid_loss:0.3321
+epoch:707__train_loss:0.2351__valid_loss:0.3288
+epoch:708__train_loss:0.2207__valid_loss:0.3250
+epoch:709__train_loss:0.2331__valid_loss:0.3299
+epoch:710__train_loss:0.2259__valid_loss:0.3338
+epoch:711__train_loss:0.2259__valid_loss:0.3223
+epoch:712__train_loss:0.2256__valid_loss:0.3329
+epoch:713__train_loss:0.2246__valid_loss:0.3303
+epoch:714__train_loss:0.2194__valid_loss:0.3281
+epoch:715__train_loss:0.2319__valid_loss:0.3298
+epoch:716__train_loss:0.2204__valid_loss:0.3296
+epoch:717__train_loss:0.2279__valid_loss:0.3319
+epoch:718__train_loss:0.2249__valid_loss:0.3340
+epoch:719__train_loss:0.2291__valid_loss:0.3366
+epoch:720__train_loss:0.2294__valid_loss:0.3289
+epoch:721__train_loss:0.2261__valid_loss:0.3352
+epoch:722__train_loss:0.2279__valid_loss:0.3403
+epoch:723__train_loss:0.2316__valid_loss:0.3303
+epoch:724__train_loss:0.2211__valid_loss:0.3315
+epoch:725__train_loss:0.2370__valid_loss:0.3319
+epoch:726__train_loss:0.2215__valid_loss:0.3299
+epoch:727__train_loss:0.2249__valid_loss:0.3329
+epoch:728__train_loss:0.2224__valid_loss:0.3291
+epoch:729__train_loss:0.2248__valid_loss:0.3305
+epoch:730__train_loss:0.2262__valid_loss:0.3299
+epoch:731__train_loss:0.2266__valid_loss:0.3306
+epoch:732__train_loss:0.2255__valid_loss:0.3340
+epoch:733__train_loss:0.2191__valid_loss:0.3232
+epoch:734__train_loss:0.2205__valid_loss:0.3250
+epoch:735__train_loss:0.2239__valid_loss:0.3271
+epoch:736__train_loss:0.2191__valid_loss:0.3351
+epoch:737__train_loss:0.2267__valid_loss:0.3412
+epoch:738__train_loss:0.2249__valid_loss:0.3281
+epoch:739__train_loss:0.2271__valid_loss:0.3291
+epoch:740__train_loss:0.2278__valid_loss:0.3374
+epoch:741__train_loss:0.2197__valid_loss:0.3219
+epoch:742__train_loss:0.2230__valid_loss:0.3401
+epoch:743__train_loss:0.2307__valid_loss:0.3269
+epoch:744__train_loss:0.2165__valid_loss:0.3364
+epoch:745__train_loss:0.2259__valid_loss:0.3314
+epoch:746__train_loss:0.2208__valid_loss:0.3269
+epoch:747__train_loss:0.2222__valid_loss:0.3316
+epoch:748__train_loss:0.2391__valid_loss:0.3319
+epoch:749__train_loss:0.2254__valid_loss:0.3384
