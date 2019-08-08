@@ -2,31 +2,39 @@
 ---
 
 ## Purpose
-This repository mainly created for counting human(without duplication) in video. 
+This repository mainly created for counting human(without duplication) in video.
 
 ## Acknowledge
-This code is modified from the original opensource crowd counting framework code https://github.com/gjy3035/C-3-Framework
+This code is modified from the original code https://github.com/shijieS/SST
 
 ## Method
-Current crowd counting methods mainly focus on applying in single image. This repository proposed a CascadeCNN network, which utilizes multiple frames to refine the current frame dense map. Our Method can be divided into two kinds: Native CascadeCNN and STN transformed CascadeCNN.
+This code mainly set a miss_object pool to store those disappear targets and track failed targets, then if new targets are detected, they would be searched in the miss_object pool to see if these new targets have appeared before. We store the features extracted from the backbone, and then let features pass the affinity estimator to get the similarity array. And this code still have real-time property. So we do not re-train the model, but if you want, you can train by yourself according to the original repository.
 
-## Data Preparing
-Since current datasets are basic based on single image, there are only Mall, UCSD, FDST are video based, so we train/test our method on Mall and FDST. You can download Mall[[link](http://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html)] and FDST[[LINK](https://pan.baidu.com/share/init?surl=NNaJ1vtsxCPJUjDNhZ1sHA)(pwd:**sgt1**)]. We have offer code to process these two datasets. Meanwhile, we offer processed data[[link]].
+## Prepare & Train
+Please refer to the original code
 
-## Train & Test
-In config.py you can change any parameter if you want. One important paramter is __C.STN. Change __C.STN to True so that the framework would adopt STN to process multiple frame dense maps.
-### Train
-> ```shell
-> python train.py
-> ```
-### Test
-> ```shell
-> python test.py
-> ```
+## Test
+> ``` shell
+cd SST-master
+python test_mot17.py
+>```
 
-## Performance
+## Parameters
+You can change some parameters in config/config.py.
 
+1.'similar_thresold' means the thresold of new_target and miss_pool object. The lower 'similar_thresold' is tend to have detected more repeat target.
 
-## Pretrained Model
-We would upload some pretrained models to help you verify our method. You can find models of CascadeCNN[[link]()]/CascadeCNN+STN[[link]()] trained on Mall and th corresponding models[[link]()][[link]()] trained on FDST.
+2.'max_object' means the max number of target that allowed in one frame.
 
+## Demo
+We have upload two video demo on my personal page, here is the link:
+
+http://home.ustc.edu.cn/~zzp1994/MOT17-0.1.avi
+
+http://home.ustc.edu.cn/~zzp1994/MOT17-0.5.avi
+
+## Re-Train the reid branch[By Yourself]
+We also implemente an reid-fintune branch introduced from the backbone, you can obtained more discriminative features by re-train this branch instead of just get the features from backbone. We have completed the entire training code. But we just simply design a naive model to see if this training code works. If you want to get a power reid-finetune branch, you can modified the reid_model.py refering to the recent reid networks and train it by yourself.
+
+## Attention
+Since this code is based on MOT framework, the counting result is greatly influenced by the performance of detector. You can try different detector in MOT17(DPM/SDP/Faster-RCNN) to test performance of this code.
