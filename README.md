@@ -14,9 +14,9 @@ This code mainly set a miss_object pool to store those disappear targets and tra
 Please refer to the original code
 
 ## Test
-> ``` shell
-cd SST-master
-python test_mot17.py
+> ```shell
+>cd SST-master
+>python test_mot17.py
 >```
 
 ## Parameters
